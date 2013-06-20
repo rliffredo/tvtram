@@ -2,9 +2,13 @@ import bs4
 import urllib.request
 import codecs
 import json
+import concurrent.futures
+
+workers_get_schedules = 3
+workers_scrap_stop_to = 10
 
 def prints(text):
-    # print(text.encode('ascii', 'ignore'))
+    #print(text.encode('ascii', 'ignore'))
     pass
 
 def get_soup(url):
@@ -36,22 +40,26 @@ def scrap_stops():
     return result
 
 def parse_line(text):
-    # '123 - > asd'
-    i = text.index(' - > ')
-    return (text[0:i], text[i+5:])
+    # '123 - > asd zxc'
+    return tuple(text.split(' - > '))
+
+def process_stop_line(line):
+    if line.get('href') == '../przystan.htm':
+        return
+    number, direction = parse_line(line.text)
+    link = line.get('href')[3:]
+    stop_line = StopLine(number, direction, link)
+    scrap_line_to(stop_line)
+    return stop_line
 
 def scrap_stop_to(stop):
     prints('scraping stop: ' + stop.name)
     soup = get_soup(stop.link)
     lines = soup.select('table a')
-    for line in lines:
-        if line.get('href') == '../przystan.htm':
-            continue
-        number, direction = parse_line(line.text)
-        link = line.get('href')[3:]
-        stop_line = StopLine(number, direction, link)
-        scrap_line_to(stop_line)
-        stop.lines.append(stop_line)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers_scrap_stop_to) as executor:
+        futures = [ executor.submit(process_stop_line, line) for line in lines ]
+        results = [ future.result() for future in concurrent.futures.as_completed(futures) ]
+        stop.lines = [ result for result in results if result is not None ]
     
 def scrap_line_to(stop_line):
     prints('scraping line: ' + stop_line.number + ' ' + stop_line.destination)
@@ -88,22 +96,24 @@ def get_schedules_for_stop(stops, name):
     scrap_stop_to(stop_data)
     return stop_to_dictionary(stop_data)
 
-def get_schedules():
+def get_schedules(stop_names):
     stops = scrap_stops()
-    rondo_matecznego = 'Rondo Matecznego'
-    lagiewniki = b"\xc5\x81agiewniki".decode('utf-8')
-    rzemieslnicza = b'Rzemie\xc5\x9blnicza'.decode('utf-8')
-    schedules = {
-        'stops': [
-            get_schedules_for_stop(stops, rondo_matecznego),
-            get_schedules_for_stop(stops, lagiewniki),
-            get_schedules_for_stop(stops, rzemieslnicza)
-        ]
-    }
-    return schedules
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers_get_schedules) as executor:
+        futures = [ executor.submit(get_schedules_for_stop, stops, stop_name) for stop_name in stop_names ]
+        results = [ future.result() for future in concurrent.futures.as_completed(futures) ]
+        schedules = {
+            'stops': results
+        }
+        return schedules
 
+def get_specific_schedules():
+    return get_schedules([ 'Rondo Matecznego', b'\xc5\x81agiewniki'.decode('utf-8'), b'Rzemie\xc5\x9blnicza'.decode('utf-8') ])
 
-schedule = get_schedules()
-json_data = json.dumps(schedule)
-
-print(json_data)
+if __name__ == '__main__':
+    schedule = get_specific_schedules()
+    json_data = json.dumps(schedule)
+    
+    print(json_data)
+    
+    #import timeit
+    #print(timeit.timeit("get_specific_schedules()", setup="from __main__ import get_specific_schedules", number=5))
