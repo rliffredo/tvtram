@@ -51,6 +51,11 @@
    border-bottom: dotted DarkOrange;
 }
 
+.topLeft{
+   width:100%;
+   height: 980px;
+}
+
 body {
    border-width: 0px;
    padding: 0px;
@@ -76,13 +81,19 @@ h1
 	color: DarkOrange;
 }
 
+h4
+{
+	margin: 0px 0px 25px 50px;
+	color: DarkOrange;
+}
+
 li .time{
    float:right;
    padding-right: 100px;
 }
 
 li .hurry{
-   color: red;
+   color: #ff3333;
 }
 
 li .medium{
@@ -123,7 +134,8 @@ li .easy{
 <body>
     <div class="wrapper">
         <div class="left">
-            <h1>Rondo Matecznego</h1>
+        <div class="topLeft">
+		<h1>Rondo Matecznego</h1>
 			<ul>
 			<li><span class="number bus">174</span> Kurdwanów <span class="time hurry">4 min.</span></li>
 			<li><span class="number bus">164</span> Kurdwanów <span class="time medium">8 min.</span></li>
@@ -136,6 +148,10 @@ li .easy{
 			<li><span class="number bus">144</span> Rżąka <span class="time easy">31 min.</span></li>
 			</ul>
         </div>
+		<div class="bottom">
+		<h4>TV Tram - Hack Days 2013</h4>
+		</div>
+		</div>
         <div class="right">
 		<div class="top">
 		<h1>Łagiewniki</h1>
