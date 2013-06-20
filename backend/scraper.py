@@ -67,20 +67,27 @@ def scrap_schedule(stop_line):
             schedule.departures.append(hour + ':' + min)
     return schedule
 
-stops = scrap_stops()
-
-def get_schedule(stops, name, line, destination):
+def get_schedules_for_stop(stops, name):
     stop = next(stop for stop in stops if stop.name == name)
     stop_lines = scrap_stop_lines(stop)
-    stop_line = next(sl for sl in stop_lines if sl.line == line and sl.destination == destination)
-    return scrap_schedule(stop_line)
+    stop_schedules = [scrap_schedule(line) for line in stop_lines]
+    return stop_schedules
 
-def get_
+def get_schedules():
+    stops = scrap_stops()
+    schedules = {}
+    rondo_matecznego = 'Rondo Matecznego'
+    lagiewniki = b"\xc5\x81agiewniki".decode('utf-8')
+    rzemieslnicza = b'Rzemie\xc5\x9blnicza'.decode('utf-8')
+    schedules[rondo_matecznego] = get_schedules_for_stop(stops, rondo_matecznego)
+    schedules[lagiewniki] = get_schedules_for_stop(stops, lagiewniki)
+    schedules[rzemieslnicza] = get_schedules_for_stop(stops, rzemieslnicza)
+    return schedules
 
 
-schedule = get_schedule(stops, 'Rondo Matecznego', '23', 'Czerwone Maki')
+schedule = get_schedules()
 
-print(schedule.stop_line.stop.name)
-print(schedule.stop_line.line)
-print(schedule.stop_line.destination)
-print(schedule.departures)
+print(schedule[0].stop_line.stop.name)
+print(schedule[0].stop_line.line)
+print(schedule[0].stop_line.destination)
+print(schedule[0].departures)
