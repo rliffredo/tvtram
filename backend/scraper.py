@@ -1,15 +1,27 @@
 import bs4
 import urllib.request
 import codecs
+import json
+
+def prints(text):
+    print(text.encode('ascii', 'ignore'))
 
 def get_soup(url):
     request = urllib.request.urlopen('http://rozklady.mpk.krakow.pl/aktualne/' + url)
     return bs4.BeautifulSoup(request.readall())
     
+class StopLine:
+    def __init__(self, number, destination, link):
+        self.number = number
+        self.destination = destination
+        self.link = link
+        self.departures = [ ]
+    
 class Stop:
     def __init__(self, name, link):
         self.name = name
         self.link = link
+        self.lines = [ ]
 
 def scrap_stops():
     soup = get_soup('przystan.htm')
@@ -18,42 +30,33 @@ def scrap_stops():
     for stop in stops:
         if stop.get('href') is None:
             continue
+        # prints('found stop: ' + stop.text)
         result.append(Stop(stop.text, stop.get('href')))
     return result
 
-def parse_line_with_direction(text):
+def parse_line(text):
     # '123 - > asd'
     split = text.split(' ')
     return (split[0], split[3])
 
-class StopLine:
-    def __init__(self, stop, line, destination, link):
-        self.stop = stop
-        self.line = line
-        self.destination = destination
-        self.link = link
-
-def scrap_stop_lines(stop):
+def scrap_stop_to(stop):
+    prints('scraping stop: ' + stop.name)
     soup = get_soup(stop.link)
-    directions = soup.select('table a')
-    result = [ ]
-    for dir in directions:
-        if dir.get('href') == '../przystan.htm':
+    lines = soup.select('table a')
+    for line in lines:
+        if line.get('href') == '../przystan.htm':
             continue
-        details = parse_line_with_direction(dir.text)
-        result.append(StopLine(stop, details[0], details[1], dir.get('href')[3:]))
-    return result
+        number, direction = parse_line(line.text)
+        link = line.get('href')[3:]
+        stop_line = StopLine(number, direction, link)
+        scrap_line_to(stop_line)
+        stop.lines.append(stop_line)
     
-class Schedule:
-    def __init__(self, stop_line):
-        self.stop_line = stop_line
-        self.departures = [ ]
-
-def scrap_schedule(stop_line):
+def scrap_line_to(stop_line):
+    prints('scraping line: ' + stop_line.number + ' ' + stop_line.destination)
     # build the link: r is the version with frames, t is without frames
     # there is only one r in the link
     link = stop_line.link.replace('r', 't')
-    schedule = Schedule(stop_line)
     soup = get_soup(link)
     # skip the header and the footer
     rows = soup.select('td.celldepart tr')[1:-1]
@@ -64,30 +67,45 @@ def scrap_schedule(stop_line):
         for min in minutes:
             if min == '-' or min == '':
                 continue
-            schedule.departures.append(hour + ':' + min)
-    return schedule
+            stop_line.departures.append(hour + ':' + min)
+    print(stop_line.departures)
+
+class StopLine:
+    def __init__(self, number, destination, link):
+        self.number = number
+        self.destination = destination
+        self.link = link
+        self.departures = [ ]
+
+def stop_to_dictionary(stop):
+    d = {}
+    d['name'] = stop.name
+    d['lines'] = [ ]
+    for line in stop.lines:
+        l = { }
+        l['number'] = line.number
+        l['destination'] = line.destination
+        l['departures'] = line.departures[:]
+        d['lines'].append(l)
+    return d
 
 def get_schedules_for_stop(stops, name):
-    stop = next(stop for stop in stops if stop.name == name)
-    stop_lines = scrap_stop_lines(stop)
-    stop_schedules = [scrap_schedule(line) for line in stop_lines]
-    return stop_schedules
+    stop_data = next(stop for stop in stops if stop.name == name)
+    scrap_stop_to(stop_data)
+    return stop_to_dictionary(stop_data)
 
 def get_schedules():
     stops = scrap_stops()
-    schedules = {}
     rondo_matecznego = 'Rondo Matecznego'
     lagiewniki = b"\xc5\x81agiewniki".decode('utf-8')
     rzemieslnicza = b'Rzemie\xc5\x9blnicza'.decode('utf-8')
-    schedules[rondo_matecznego] = get_schedules_for_stop(stops, rondo_matecznego)
-    schedules[lagiewniki] = get_schedules_for_stop(stops, lagiewniki)
-    schedules[rzemieslnicza] = get_schedules_for_stop(stops, rzemieslnicza)
+    schedules = [
+        get_schedules_for_stop(stops, rondo_matecznego),
+        get_schedules_for_stop(stops, lagiewniki),
+        get_schedules_for_stop(stops, rzemieslnicza)
+    ]
     return schedules
 
 
 schedule = get_schedules()
-
-print(schedule[0].stop_line.stop.name)
-print(schedule[0].stop_line.line)
-print(schedule[0].stop_line.destination)
-print(schedule[0].departures)
+json.dumps(schedule)
