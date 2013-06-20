@@ -36,8 +36,8 @@ def scrap_stops():
 
 def parse_line(text):
     # '123 - > asd'
-    split = text.split(' ')
-    return (split[0], split[3])
+    i = text.index(' - > ')
+    return (text[0:i], text[i+5:])
 
 def scrap_stop_to(stop):
     prints('scraping stop: ' + stop.name)
@@ -70,13 +70,6 @@ def scrap_line_to(stop_line):
             stop_line.departures.append(hour + ':' + min)
     print(stop_line.departures)
 
-class StopLine:
-    def __init__(self, number, destination, link):
-        self.number = number
-        self.destination = destination
-        self.link = link
-        self.departures = [ ]
-
 def stop_to_dictionary(stop):
     d = {}
     d['name'] = stop.name
@@ -99,11 +92,13 @@ def get_schedules():
     rondo_matecznego = 'Rondo Matecznego'
     lagiewniki = b"\xc5\x81agiewniki".decode('utf-8')
     rzemieslnicza = b'Rzemie\xc5\x9blnicza'.decode('utf-8')
-    schedules = [
-        get_schedules_for_stop(stops, rondo_matecznego),
-        get_schedules_for_stop(stops, lagiewniki),
-        get_schedules_for_stop(stops, rzemieslnicza)
-    ]
+    schedules = {
+        'stops': [
+            get_schedules_for_stop(stops, rondo_matecznego),
+            get_schedules_for_stop(stops, lagiewniki),
+            get_schedules_for_stop(stops, rzemieslnicza)
+        ]
+    }
     return schedules
 
 
