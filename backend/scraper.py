@@ -4,7 +4,8 @@ import codecs
 import json
 
 def prints(text):
-    print(text.encode('ascii', 'ignore'))
+    # print(text.encode('ascii', 'ignore'))
+    pass
 
 def get_soup(url):
     request = urllib.request.urlopen('http://rozklady.mpk.krakow.pl/aktualne/' + url)
@@ -68,7 +69,7 @@ def scrap_line_to(stop_line):
             if min == '-' or min == '':
                 continue
             stop_line.departures.append(hour + ':' + min)
-    print(stop_line.departures)
+    prints(' '.join(stop_line.departures))
 
 def stop_to_dictionary(stop):
     d = {}
@@ -103,4 +104,6 @@ def get_schedules():
 
 
 schedule = get_schedules()
-json.dumps(schedule)
+json_data = json.dumps(schedule)
+
+print(json_data)
