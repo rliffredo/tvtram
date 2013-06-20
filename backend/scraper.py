@@ -5,7 +5,22 @@ import json
 import concurrent.futures
 
 workers_get_schedules = 3
-workers_scrap_stop_to = 10
+workers_scrap_stop = 10
+
+class Departure:
+    def __init__(self, number, destination, time, alt_route):
+        self.number = number
+        self.destination = destination
+        self.time = time
+        self.alt_route = alt_route
+    
+    def __str__(self):
+        return str.format('{0} {1} {2}{3}', self.number, self.destination, self.time, '*' if self.alt_route else '')
+    
+class Stop:
+    def __init__(self, name):
+        self.name = name
+        self.departures = [ ]
 
 def prints(text):
     #print(text.encode('ascii', 'ignore'))
@@ -14,19 +29,6 @@ def prints(text):
 def get_soup(url):
     request = urllib.request.urlopen('http://rozklady.mpk.krakow.pl/aktualne/' + url)
     return bs4.BeautifulSoup(request.readall())
-    
-class StopLine:
-    def __init__(self, number, destination, link):
-        self.number = number
-        self.destination = destination
-        self.link = link
-        self.departures = [ ]
-    
-class Stop:
-    def __init__(self, name, link):
-        self.name = name
-        self.link = link
-        self.lines = [ ]
 
 def scrap_stops():
     soup = get_soup('przystan.htm')
@@ -36,70 +38,78 @@ def scrap_stops():
         if stop.get('href') is None:
             continue
         # prints('found stop: ' + stop.text)
-        result.append(Stop(stop.text, stop.get('href')))
+        result.append((stop.text, stop.get('href')))
     return result
 
 def parse_line(text):
     # '123 - > asd zxc'
     return tuple(text.split(' - > '))
-
-def process_stop_line(line):
-    if line.get('href') == '../przystan.htm':
-        return
-    number, direction = parse_line(line.text)
-    link = line.get('href')[3:]
-    stop_line = StopLine(number, direction, link)
-    scrap_line_to(stop_line)
-    return stop_line
-
-def scrap_stop_to(stop):
-    prints('scraping stop: ' + stop.name)
-    soup = get_soup(stop.link)
-    lines = soup.select('table a')
-    with concurrent.futures.ThreadPoolExecutor(max_workers=workers_scrap_stop_to) as executor:
-        futures = [ executor.submit(process_stop_line, line) for line in lines ]
-        results = [ future.result() for future in concurrent.futures.as_completed(futures) ]
-        stop.lines = [ result for result in results if result is not None ]
     
-def scrap_line_to(stop_line):
-    prints('scraping line: ' + stop_line.number + ' ' + stop_line.destination)
+def scrap_line(number, destination, link):
+    prints('scraping line: ' + number + ' ' + destination)
     # build the link: r is the version with frames, t is without frames
     # there is only one r in the link
-    link = stop_line.link.replace('r', 't')
+    link = link.replace('r', 't')
     soup = get_soup(link)
     # skip the header and the footer
     rows = soup.select('td.celldepart tr')[1:-1]
+    departures = [ ]
     for row in rows:
         tds = row.select('td')
-        hour = tds[0].text
+        hour = tds[0].text.zfill(2)
         minutes = tds[1].text.split(' ')
-        for min in minutes:
-            if min == '-' or min == '':
+        for min_part in minutes:
+            if min_part == '-' or min_part == '':
                 continue
-            stop_line.departures.append(hour + ':' + min)
-    prints(' '.join(stop_line.departures))
+            min = min_part[0:2].zfill(2)
+            suffix = min_part[2:]
+            time = hour + ':' + min
+            departures.append(Departure(number, destination, time, len(suffix) > 0))
+    prints(' '.join(str(dep) for dep in departures))
+    return departures    
+
+def process_stop_line(line):
+    if line.get('href') == '../przystan.htm':
+        return None
+    number, destination = parse_line(line.text)
+    link = line.get('href')[3:]
+    return scrap_line(number, destination, link)
+
+def scrap_stop(name, link):
+    prints('scraping stop: ' + name)
+    soup = get_soup(link)
+    stop = Stop(name)
+    lines = soup.select('table a')
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers_scrap_stop) as executor:
+        futures = [ executor.submit(process_stop_line, line) for line in lines ]
+        results = [ future.result() for future in concurrent.futures.as_completed(futures) if future.result() is not None ]
+        for res in results:
+            stop.departures.extend(res)
+        stop.departures.sort(key=lambda d: d.time)
+        return stop
 
 def stop_to_dictionary(stop):
-    d = {}
-    d['name'] = stop.name
-    d['lines'] = [ ]
-    for line in stop.lines:
-        l = { }
-        l['number'] = line.number
-        l['destination'] = line.destination
-        l['departures'] = line.departures[:]
-        d['lines'].append(l)
-    return d
+    s = { }
+    s['name'] = stop.name
+    s['departures'] = [ ]
+    for dep in stop.departures:
+        d = { }
+        d['number'] = dep.number
+        d['destination'] = dep.destination
+        d['time'] = dep.time
+        d['altRoute'] = dep.alt_route
+        s['departures'].append(d)
+    return s
 
-def get_schedules_for_stop(stops, name):
-    stop_data = next(stop for stop in stops if stop.name == name)
-    scrap_stop_to(stop_data)
-    return stop_to_dictionary(stop_data)
+def get_schedules_for_stop(stops_data, stop_name):
+    stop_data = next(sd for sd in stops_data if sd[0] == stop_name)
+    stop = scrap_stop(stop_data[0], stop_data[1])
+    return stop_to_dictionary(stop)
 
 def get_schedules(stop_names):
-    stops = scrap_stops()
+    stops_data = scrap_stops()
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers_get_schedules) as executor:
-        futures = [ executor.submit(get_schedules_for_stop, stops, stop_name) for stop_name in stop_names ]
+        futures = [ executor.submit(get_schedules_for_stop, stops_data, stop_name) for stop_name in stop_names ]
         results = [ future.result() for future in concurrent.futures.as_completed(futures) ]
         schedules = {
             'stops': results
@@ -107,7 +117,7 @@ def get_schedules(stop_names):
         return schedules
 
 def get_specific_schedules():
-    return get_schedules([ 'Rondo Matecznego', b'\xc5\x81agiewniki'.decode('utf-8'), b'Rzemie\xc5\x9blnicza'.decode('utf-8') ])
+    return get_schedules([ 'Rondo Matecznego' ])#, b'\xc5\x81agiewniki'.decode('utf-8'), b'Rzemie\xc5\x9blnicza'.decode('utf-8') ])
 
 if __name__ == '__main__':
     schedule = get_specific_schedules()
