@@ -142,7 +142,7 @@
                 <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
 			
                 <div class="bottom">
-					<span class="clock">14:03</span>
+					<span class="clock" data-bind="text: currentTime"></span>
                     <h4>TV Tram - Hack Day 2013</h4>
                 </div>
             </div>
@@ -284,16 +284,23 @@
                 return hours.slice(-2) + ':' + minutes.slice(-2);
             };
             
-            var updateAll = function () {
+            var updateStops = function () {
                 var now = getCurrentTime();
                 updateTime(vm.rondoMatecznego, now);
                 updateTime(vm.lagiewniki, now);
                 updateTime(vm.rzemieslnicza, now);
-                currentTime(formatHHMM(now));
             };
             
-            updateAll();            
-            setInterval(updateAll, 1000 * 30);
+            var updateClock = function () {
+                var now = getCurrentTime();
+                vm.currentTime(formatHHMM(now));
+            };
+            
+            updateStops();            
+            setInterval(updateStops, 1000 * 30);
+            
+            updateClock();
+            setInterval(updateClock, 1000 * 3);
             
             ko.applyBindings(vm);
         </script>
