@@ -8,10 +8,15 @@
           font-family: BPdots;
           src: url(./BPdotsUnicase.otf);
         }
-		
-		@font-face {
-          font-family: BPdotsBold;
-          src: url(./BPdotsUnicaseBold.otf);
+
+        @font-face {
+          font-family: "BPdots Square";
+          src: url(./BPdotsUnicaseSquare.otf);
+        }
+
+        @font-face {
+          font-family: "BPdots Square Plus";
+          src: url(./BPdotsUnicasePlus.otf);
         }
 
         .wrapper{
@@ -56,7 +61,6 @@
            background-color: black;
            font-family: "BPdots", sans-serif;
            text-transform:uppercase;
-		   width: 1920px;
         }
 
         ul
@@ -97,11 +101,9 @@
         }
             
         .number{
-          width: 2em;
+          width: 1.5em;
           display: inline-block;
           text-align: right;
-		  /*font-family: BPdotsBold;*/
-		  color: DarkOrange;
         }
 
         .bus{
@@ -140,6 +142,13 @@
         <script src="knockout-2.2.1.js"></script>
         <script src="data.js"></script>
         <script>
+            var getCurrentTime = function () {
+                var d = new Date();
+                //d.setHours(14);
+                //d.setMinutes(30);
+                return d;
+            };
+        
             var getDepartureTime = function (now, dep) {
                 var parts = dep.time.split(':');
                 var hours = parseInt(parts[0], 10);
@@ -161,13 +170,27 @@
                 return diffMin;
             };
             
+            var stringCompare = function (left, right) {
+                return left === right
+                    ? 0
+                    : (left < right ? -1 : 1);
+            };
+            
             var updateTime = function (stop) {
-                var entries = 0, i = 0, now = new Date();
+                var entries = 0, i = 0, now = getCurrentTime();
                 stop.allDepartures.forEach(function (dep) {
                     dep.minutesLeft(minutesTillDeparture(now, dep));
                 });
                 stop.allDepartures.sort(function (left, right) {
-                    return left.minutesLeft() - right.minutesLeft();
+                    var res = left.minutesLeft() - right.minutesLeft();
+                    if (res != 0) {
+                        return res;
+                    }
+                    var res = stringCompare(left.number, right.number);
+                    if (res != 0) {
+                        return res;
+                    }
+                    return stringCompare(left.destination, right.destination);
                 });
                 
                 stop.departures.removeAll();
@@ -242,9 +265,14 @@
                 rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
             };
             
-            updateTime(vm.rondoMatecznego);
-            updateTime(vm.lagiewniki);
-            updateTime(vm.rzemieslnicza);
+            var updateAll = function () {
+                updateTime(vm.rondoMatecznego);
+                updateTime(vm.lagiewniki);
+                updateTime(vm.rzemieslnicza);
+            };
+            
+            updateAll();            
+            setInterval(updateAll, 1000 * 30);
             
             ko.applyBindings(vm);
         </script>
