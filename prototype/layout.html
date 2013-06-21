@@ -169,8 +169,8 @@
                     : (left < right ? -1 : 1);
             };
             
-            var updateTime = function (stop) {
-                var entries = 0, i = 0, now = getCurrentTime();
+            var updateTime = function (stop, now) {
+                var entries = 0, i = 0;
                 stop.allDepartures.forEach(function (dep) {
                     dep.minutesLeft(minutesTillDeparture(now, dep));
                 });
@@ -256,12 +256,21 @@
                 rondoMatecznego: createStopVm(data, rondoMatecznegoSpec),
                 lagiewniki: createStopVm(data, lagiewnikiSpec),
                 rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
+                currentTime: ko.observable('00:00')
+            };
+            
+            var formatHHMM = function (time) {
+                var hours = '00' + time.getHours().toString();
+                var minutes = '00' + time.getMinutes().toString();
+                return hours.slice(-2) + ':' + minutes.slice(-2);
             };
             
             var updateAll = function () {
-                updateTime(vm.rondoMatecznego);
-                updateTime(vm.lagiewniki);
-                updateTime(vm.rzemieslnicza);
+                var now = getCurrentTime();
+                updateTime(vm.rondoMatecznego, now);
+                updateTime(vm.lagiewniki, now);
+                updateTime(vm.rzemieslnicza, now);
+                currentTime(formatHHMM(now));
             };
             
             updateAll();            
