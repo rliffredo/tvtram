@@ -260,38 +260,61 @@
                 mediumTime: 8
             };
             
-            var vm = {
-                rondoMatecznego: createStopVm(data, rondoMatecznegoSpec),
-                lagiewniki: createStopVm(data, lagiewnikiSpec),
-                rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
-                currentTime: ko.observable('00:00')
+            var createVm = function (data) {
+                var vm = {
+                    rondoMatecznego: createStopVm(data, rondoMatecznegoSpec),
+                    lagiewniki: createStopVm(data, lagiewnikiSpec),
+                    rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
+                    currentTime: ko.observable('00:00')
+                };
+                
+                var formatHHMM = function (time) {
+                    var hours = '00' + time.getHours().toString();
+                    var minutes = '00' + time.getMinutes().toString();
+                    return hours.slice(-2) + ':' + minutes.slice(-2);
+                };
+            
+                vm.updateStops = function () {
+                    var now = getCurrentTime();
+                    updateTime(this.rondoMatecznego, now);
+                    updateTime(this.lagiewniki, now);
+                    updateTime(this.rzemieslnicza, now);
+                };
+            
+                vm.updateClock = function () {
+                    var now = getCurrentTime();
+                    this.currentTime(formatHHMM(now));
+                };
+                
+                return vm;
             };
             
-            var formatHHMM = function (time) {
-                var hours = '00' + time.getHours().toString();
-                var minutes = '00' + time.getMinutes().toString();
-                return hours.slice(-2) + ':' + minutes.slice(-2);
+            var data = localData;
+            var runApp = function () {
+                var vm = createVm(data);
+                updateStops = vm.updateStops.bind(vm);
+                updateClock = vm.updateClock.bind(vm);
+                
+                updateStops();
+                setInterval(updateStops, 1000 * 30);
+                
+                updateClock();
+                setInterval(updateClock, 1000 * 3);
+                
+                ko.applyBindings(vm);                
             };
             
-            var updateStops = function () {
-                var now = getCurrentTime();
-                updateTime(vm.rondoMatecznego, now);
-                updateTime(vm.lagiewniki, now);
-                updateTime(vm.rzemieslnicza, now);
-            };
+            /*
+            $(function () {
+                $.get('http://localhost:8080')
+                    .done(function (serviceData) {
+                        data = serviceData;
+                        runApp();
+                    });
+            });
+            */
             
-            var updateClock = function () {
-                var now = getCurrentTime();
-                vm.currentTime(formatHHMM(now));
-            };
-            
-            updateStops();            
-            setInterval(updateStops, 1000 * 30);
-            
-            updateClock();
-            setInterval(updateClock, 1000 * 3);
-            
-            ko.applyBindings(vm);
+            runApp();
         </script>
     </body>
 </html>
