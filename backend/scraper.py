@@ -117,7 +117,11 @@ def get_schedules(stop_names):
         return schedules
 
 def get_specific_schedules():
-    return get_schedules([ 'Rondo Matecznego' ])#, b'\xc5\x81agiewniki'.decode('utf-8'), b'Rzemie\xc5\x9blnicza'.decode('utf-8') ])
+    return get_schedules([
+        'Rondo Matecznego',
+        b'\xc5\x81agiewniki'.decode('utf-8'),
+        b'Rzemie\xc5\x9blnicza'.decode('utf-8')
+    ])
 
 if __name__ == '__main__':
     schedule = get_specific_schedules()
