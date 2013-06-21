@@ -1,185 +1,169 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>TV Tram</title>
-<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-<style type='text/css'>
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>TV Tram</title>
+    <meta charset='utf-8'>
+    <style type='text/css'>
+        @font-face {
+          font-family: BPdots;
+          src: url(./BPdotsUnicase.otf);
+        }
 
-@font-face {
-  font-family: BPdots;
-  src: url(./BPdotsUnicase.otf);
-}
+        @font-face {
+          font-family: "BPdots Square";
+          src: url(./BPdotsUnicaseSquare.otf);
+        }
 
-@font-face {
-  font-family: "BPdots Square";
-  src: url(./BPdotsUnicaseSquare.otf);
-}
+        @font-face {
+          font-family: "BPdots Square Plus";
+          src: url(./BPdotsUnicasePlus.otf);
+        }
 
-@font-face {
-  font-family: "BPdots Square Plus";
-  src: url(./BPdotsUnicasePlus.otf);
-}
+        .wrapper{
+           position: relative;
+           float: left;
+           left: 0.00%;
+           width: 100.00%;
+        }
 
-.wrapper{
-   position: relative;
-   float: left;
-   left: 0.00%;
-   width: 100.00%;
-}
+        .left{
+           position: relative;
+           float: left;
+           left: 0.00%;
+           width: 50.00%;
+           height: 1080px;
+           border-right: dotted orange;
+        }
 
-.left{
-   position: relative;
-   float: left;
-   left: 0.00%;
-   width: 50.00%;
-   height: 1080px;
-   border-right: dotted orange;
-}
+        .right{
+           overflow: hidden;
+           height: 1080px;
+        }
 
-.right{
-   /*position: relative;
-   float: left;
-   right: 0.00%;*/
-   /*width: 50.00%;*/
-   overflow: hidden;
-   height: 1080px;
-}
-
-.top{
-   width:100%;
+        .top{
+           width:100%;
    height: 640px;
-   border-bottom: dotted DarkOrange;
-}
+           border-bottom: dotted DarkOrange;
+        }
 
-.topLeft{
-   width:100%;
-   height: 980px;
-}
+        .topLeft{
+           width:100%;
+           height: 980px;
+        }
 
-body {
-   border-width: 0px;
-   padding: 0px;
-   margin: 0px;
-   font-size: 2.4em;
-   background-color: #e7e7de;
-   color: white;
-   background-color: black;
-   font-family: "BPdots", sans-serif;
-   text-transform:uppercase;
-}
+        body {
+           border-width: 0px;
+           padding: 0px;
+           margin: 0px;
+           font-size: 2em;
+           background-color: #e7e7de;
+           color: white;
+           background-color: black;
+           font-family: "BPdots", sans-serif;
+           text-transform:uppercase;
+        }
 
-ul
-{
-    list-style-type: none;
-	padding: 0;
-	margin: 0px 0px 0px 50px;
-}
+        ul
+        {
+            list-style-type: none;
+            padding: 0;
+            margin: 0px 0px 0px 50px;
+        }
 
-h1
-{
-	margin: 0px 0px 25px 50px;
-	color: DarkOrange;
-}
+        h1
+        {
+            margin: 0px 0px 25px 50px;
+            color: DarkOrange;
+        }
 
-li .time{
-   float:right;
-   padding-right: 70px;
-}
+        li .time{
+           float:right;
+           padding-right: 70px;
+        }
 
-li .hurry{
-   color: #ff3333;
-}
+        li .hurry{
+           color: #ff3333;
+        }
 
-li .medium{
-  color: yellow;
-}
+        li .medium{
+          color: yellow;
+        }
 
-li .easy{
-  color: YellowGreen;
-}
+        li .easy{
+          color: YellowGreen;
+        }
+            
+        .number{
+          width: 1.5em;
+          display: inline-block;
+          text-align: right;
+        }
 
-/*. {
-    background: url("../images/sprite-misc.png") no-repeat scroll -10px -229px transparent;
-    display: block;
-    float: left;
-    height: 140px;
-    width: 141px;*/
-	
-.number{
-  width: 1.5em;
-  display: inline-block;
-  text-align: right;
-}
+        .bus{
+          background: transparent url(./img/bus-icon-transparent.png) left 80% no-repeat;
+          padding-left: 1em;
+          background-size: 0.75em;
+        }
 
-.bus{
-  background: transparent url(./img/bus-icon-transparent.png) left 80% no-repeat;
-  padding-left: 1em;
-  background-size: 0.75em;
-}
-
-.tram{
-  background: transparent url(./img/tram-icon-transparent.png) left 80% no-repeat;
-  padding-left: 1em;
-  background-size: 0.75em;
-}
-
-</style>
-</head>
-<body>
-    <div class="wrapper">
-        <div class="left">
-        <div class="topLeft">
-		<h1>Rondo Matecznego</h1>
-			<ul>
-			<li><span class="number bus">174</span> Kurdwanów <span class="time hurry">5 min.</span></li>
-			<li><span class="number bus">164</span> Kurdwanów <span class="time hurry">8 min.</span></li>
-			<li><span class="number bus">173</span> Azory <span class="time hurry">9 min.</span></li>
-			<li><span class="number bus">179</span> Dworzec Główny Zachód <span class="time medium">12 min.</span></li>
-			<li><span class="number bus">164</span> Górka Narodowa <span class="time medium">13 min.</span></li>
-			<li><span class="number bus">174</span> Prądnik Czerwony <span class="time medium">14 min.</span></li>
-			<li><span class="number bus">173</span> Nowy Bieżanów Południe <span class="time medium">14 min.</span></li>
-			<li><span class="number bus">144</span> Rżąka <span class="time easy">21 min.</span></li>
-			<li><span class="number bus">173</span> Azory <span class="time easy">22 min.</span></li>
-			<li><span class="number bus">179</span> Dworzec Główny Zachód <span class="time easy">25 min.</span></li>
-			<li><span class="number bus">164</span> Górka Narodowa <span class="time easy">27 min.</span></li>
-			<li><span class="number bus">174</span> Prądnik Czerwony <span class="time easy">28 min.</span></li>
-			<li><span class="number bus">173</span> Nowy Bieżanów Południe <span class="time easy">31 min.</span></li>
-			<li><span class="number bus">144</span> Rżąka <span class="time easy">33 min.</span></li>
-			</ul>
-        </div>
-		<div class="bottom">
-		<h4>TV Tram - Hack Days 2013</h4>
-		</div>
-		</div>
-        <div class="right">
-		<div class="top">
-		<h1>Łagiewniki</h1>
-		    <ul>
-			<li><span class="number bus">106</span> Skotniki Szkoła <span class="time hurry">5 min.</span></li>
-			<li><span class="number bus">133</span> Kurdwanów <span class="time hurry">6 min.</span></li>
-			<li><span class="number bus">106</span> Skotniki Szkoła <span class="time hurry">7 min.</span></li>
-			<li><span class="number bus">155</span> Kurdwanów <span class="time medium">11 min.</span></li>
-			<li><span class="number bus">133</span> Bieżanów Potrzask <span class="time medium">12 min.</span></li>
-			<li><span class="number tram">22</span> Borek Fałęcki <span class="time medium">13 min.</span></li>		
-			<li><span class="number bus">106</span> Skotniki Szkoła <span class="time easy">15 min.</span></li>
-			<li><span class="number bus">166</span> Sidzina <span class="time easy">22 min.</span></li>
-			<li><span class="number bus">178</span> Mistrzejowice <span class="time easy">27 min.</span></li>
-			<li><span class="number bus">915</span> Świątniki Cmentarz <span class="time easy">31 min.</span></li>
-			</ul>
-		</div>
-		<div class="bottom">
-		<h1>Rzemieślnicza</h1>
-		    <ul>
-			<li><span class="number tram">10</span> Kurdwanów <span class="time hurry">4 min.</span></li>
-			<li><span class="number tram">23</span> Czerwone Maki <span class="time hurry">5 min.</span></li>
-			<li><span class="number tram">8</span> Bieżanów Potrzask <span class="time medium">12 min.</span></li>
-			<li><span class="number tram">19</span> Borek Fałęcki <span class="time medium">13 min.</span></li>
+        .tram{
+          background: transparent url(./img/tram-icon-transparent.png) left 80% no-repeat;
+          padding-left: 1em;
+          background-size: 0.75em;
+        }
+    </style>
+    </head>
+    <body>
+        <script type="text/html" id="line-template">
+            <h1 data-bind="text: name"></h1>
+            <ul data-bind="foreach: departures">
+                <li><span class="number" data-bind="text: number, css: type"></span> <span data-bind="text: destination"></span> <span class="time hurry" data-bind="text: timeLeft">4 min.</span></li>
+            </ul>
+        </script>
+        <div class="wrapper">
+            <div class="left">
+                <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
 			
-			<li><span class="number tram">10</span> Skotniki Szkoła <span class="time easy">15 min.</span></li>
-			<li><span class="number tram">8</span> Sidzina <span class="time easy">22 min.</span></li>
-			</ul>
-		</div>
-        </div> 
-    </div>
-</body>
+                <div class="bottom">
+                    <h4>TV Tram - Hack Days 2013</h4>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top" data-bind="template: { name: 'line-template', data: lagiewniki }"></div>
+                <div class="bottom" data-bind="template: { name: 'line-template', data: rzemieslnicza }"></div>
+			</div> 
+        </div>
+        <script src="knockout-2.2.1.js"></script>
+        <script src="data.js"></script>
+        <script>
+            var minutesTillDeparture = function (now, dep) {
+                return "10min";
+            };
+            
+            var updateTime = function (stop) {
+                var now = new Date();
+                stop.departures.forEach(function (dep) {
+                    dep.timeLeft(minutesTillDeparture(now, dep));
+                });
+            };
+            
+            var getStopData = function (allData, name) {
+                var stopData = allData.stops.filter(function (stop) {
+                    return stop.name === name;
+                })[0];
+                stopData.departures.forEach(function (dep) {
+                    dep.type = dep.number.length > 2 ? 'bus' : 'tram';
+                    dep.timeLeft = ko.observable(dep.time);
+                });
+                return stopData;
+            };
+            
+            var vm = {
+                rondoMatecznego: getStopData(data, 'Rondo Matecznego'),
+                lagiewniki: getStopData(data, 'Łagiewniki'),
+                rzemieslnicza: getStopData(data, 'Rzemieślnicza'),
+            };
+            
+            ko.applyBindings(vm);
+        </script>
+    </body>
 </html>
