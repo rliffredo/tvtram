@@ -133,7 +133,7 @@
         <script type="text/html" id="line-template">
             <h1 data-bind="text: name"></h1>
             <ul data-bind="foreach: departures">
-                <li><span class="number" data-bind="text: number, css: type"></span> <span data-bind="text: destination"></span> <span class="time hurry" data-bind="text: timeLeft">4 min.</span></li>
+                <li><span class="number" data-bind="text: number, css: type"></span> <span data-bind="text: destination"></span> <span class="time hurry" data-bind="text: timeLeft"></span></li>
             </ul>
         </script>
         <div class="wrapper">
@@ -151,33 +151,64 @@
         <script src="knockout-2.2.1.js"></script>
         <script src="data.js"></script>
         <script>
+            var getDepartureTime = function (now, dep) {
+                var parts = dep.time.split(':');
+                var hours = parseInt(parts[0], 10);
+                var minutes = parseInt(parts[1], 10);
+                var departureTime = new Date(now.getTime());
+                departureTime.setHours(hours);
+                departureTime.setMinutes(minutes);
+                // roll over day
+                // TODO: better logic
+                if (departureTime < now) {
+                    departureTime.setDate(departureTime.getDate() + 1);
+                }
+                return departureTime;
+            };
+        
             var minutesTillDeparture = function (now, dep) {
-                return "10min";
+                var departureTime = getDepartureTime(now, dep);
+                var diffMs = departureTime.getTime() - now.getTime();
+                var diffMin = Math.floor(diffMs / 1000 / 60);
+                return diffMin;
             };
             
             var updateTime = function (stop) {
                 var now = new Date();
-                stop.departures.forEach(function (dep) {
-                    dep.timeLeft(minutesTillDeparture(now, dep));
+                stop.departures().forEach(function (dep) {
+                    dep.minutesLeft = minutesTillDeparture(now, dep);
+                    dep.timeLeft(dep.minutesLeft + " min");
+                    // TODO: update class
+                });
+                stop.departures.sort(function (left, right) {
+                    return left.minutesLeft - right.minutesLeft;
                 });
             };
             
-            var getStopData = function (allData, name) {
-                var stopData = allData.stops.filter(function (stop) {
+            var getStop = function (allData, name) {
+                var stop = allData.stops.filter(function (stop) {
                     return stop.name === name;
                 })[0];
-                stopData.departures.forEach(function (dep) {
+                stop.departures.forEach(function (dep) {
                     dep.type = dep.number.length > 2 ? 'bus' : 'tram';
-                    dep.timeLeft = ko.observable(dep.time);
+                    // minutes till departure
+                    dep.minutesLeft = 0;
+                    dep.timeLeft = ko.observable('0 min');
                 });
-                return stopData;
+                stop.allDepartures = stop.departures;
+                stop.departures = ko.observableArray(stop.allDepartures);
+                return stop;
             };
             
             var vm = {
-                rondoMatecznego: getStopData(data, 'Rondo Matecznego'),
-                lagiewniki: getStopData(data, 'Łagiewniki'),
-                rzemieslnicza: getStopData(data, 'Rzemieślnicza'),
+                rondoMatecznego: getStop(data, 'Rondo Matecznego'),
+                lagiewniki: getStop(data, 'Łagiewniki'),
+                rzemieslnicza: getStop(data, 'Rzemieślnicza'),
             };
+            
+            updateTime(vm.rondoMatecznego);
+            updateTime(vm.lagiewniki);
+            updateTime(vm.rzemieslnicza);
             
             ko.applyBindings(vm);
         </script>
