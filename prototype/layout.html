@@ -43,7 +43,7 @@
         .top{
            width:100%;
    height: 640px;
-           border-bottom: dotted DarkOrange;
+           /*border-bottom: dotted DarkOrange;*/
         }
 
         .topLeft{
@@ -61,6 +61,7 @@
            background-color: black;
            font-family: "BPdots", sans-serif;
            text-transform:uppercase;
+		   width: 1920px;
         }
 
         ul
@@ -112,15 +113,10 @@
           padding-left: 1em;
           background-size: 0.75em;
         }
-		
-		.bottom{
-		  /*vertical-align: bottom;*/
-		  /*position: relative;*/
-		}
-		
+			
 		.logo
         {
-            margin: 0 0 0 70px;
+            margin: 0 0 0 240px;
             color: DarkOrange;
 			display: inline;
         }
@@ -144,7 +140,7 @@
                 <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
 			
                 <div class="bottom">
-					<span class="clock">14:03</span>
+					<span class="clock" data-bind="text: currentTime"></span>
                     <span class="logo">TV Tram - Hack Day 2013</span>
                 </div>
             </div>
@@ -190,8 +186,8 @@
                     : (left < right ? -1 : 1);
             };
             
-            var updateTime = function (stop) {
-                var entries = 0, i = 0, now = getCurrentTime();
+            var updateTime = function (stop, now) {
+                var entries = 0, i = 0;
                 stop.allDepartures.forEach(function (dep) {
                     dep.minutesLeft(minutesTillDeparture(now, dep));
                 });
@@ -277,16 +273,32 @@
                 rondoMatecznego: createStopVm(data, rondoMatecznegoSpec),
                 lagiewniki: createStopVm(data, lagiewnikiSpec),
                 rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
+                currentTime: ko.observable('00:00')
             };
             
-            var updateAll = function () {
-                updateTime(vm.rondoMatecznego);
-                updateTime(vm.lagiewniki);
-                updateTime(vm.rzemieslnicza);
+            var formatHHMM = function (time) {
+                var hours = '00' + time.getHours().toString();
+                var minutes = '00' + time.getMinutes().toString();
+                return hours.slice(-2) + ':' + minutes.slice(-2);
             };
             
-            updateAll();            
-            setInterval(updateAll, 1000 * 30);
+            var updateStops = function () {
+                var now = getCurrentTime();
+                updateTime(vm.rondoMatecznego, now);
+                updateTime(vm.lagiewniki, now);
+                updateTime(vm.rzemieslnicza, now);
+            };
+            
+            var updateClock = function () {
+                var now = getCurrentTime();
+                vm.currentTime(formatHHMM(now));
+            };
+            
+            updateStops();            
+            setInterval(updateStops, 1000 * 30);
+            
+            updateClock();
+            setInterval(updateClock, 1000 * 3);
             
             ko.applyBindings(vm);
         </script>
