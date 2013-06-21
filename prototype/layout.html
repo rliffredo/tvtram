@@ -101,9 +101,10 @@
         }
             
         .number{
-          width: 1.5em;
+          width: 2em;
           display: inline-block;
           text-align: right;
+		  color: DarkOrange;
         }
 
         .bus{
@@ -117,6 +118,16 @@
           padding-left: 1em;
           background-size: 0.75em;
         }
+		
+		.bottom{
+		  vertical-align: middle;
+		}
+		
+		.clock{
+			float:left;
+			margin: 0 3em 0 1em;
+			font-size: 1.5em;
+		}
     </style>
     </head>
     <body>
@@ -131,7 +142,8 @@
                 <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
 			
                 <div class="bottom">
-                    <h4>TV Tram - Hack Days 2013</h4>
+					<span class="clock">14:03</span>
+                    <h4>TV Tram - Hack Day 2013</h4>
                 </div>
             </div>
             <div class="right">
