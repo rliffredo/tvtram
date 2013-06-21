@@ -8,10 +8,15 @@
           font-family: BPdots;
           src: url(./BPdotsUnicase.otf);
         }
-		
-		@font-face {
-          font-family: BPdotsBold;
-          src: url(./BPdotsUnicaseBold.otf);
+
+        @font-face {
+          font-family: "BPdots Square";
+          src: url(./BPdotsUnicaseSquare.otf);
+        }
+
+        @font-face {
+          font-family: "BPdots Square Plus";
+          src: url(./BPdotsUnicasePlus.otf);
         }
 
         .wrapper{
@@ -92,8 +97,6 @@
           width: 1.5em;
           display: inline-block;
           text-align: right;
-		  /*font-family: BPdotsBold;*/
-		  color: DarkOrange;
         }
 
         .bus{
@@ -160,13 +163,27 @@
                 return diffMin;
             };
             
+            var stringCompare = function (left, right) {
+                return left === right
+                    ? 0
+                    : (left < right ? -1 : 1);
+            };
+            
             var updateTime = function (stop) {
                 var entries = 0, i = 0, now = getCurrentTime();
                 stop.allDepartures.forEach(function (dep) {
                     dep.minutesLeft(minutesTillDeparture(now, dep));
                 });
                 stop.allDepartures.sort(function (left, right) {
-                    return left.minutesLeft() - right.minutesLeft();
+                    var res = left.minutesLeft() - right.minutesLeft();
+                    if (res != 0) {
+                        return res;
+                    }
+                    var res = stringCompare(left.number, right.number);
+                    if (res != 0) {
+                        return res;
+                    }
+                    return stringCompare(left.destination, right.destination);
                 });
                 
                 stop.departures.removeAll();
