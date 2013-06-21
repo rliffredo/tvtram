@@ -116,7 +116,7 @@
         <script type="text/html" id="line-template">
             <h1 data-bind="text: name"></h1>
             <ul data-bind="foreach: departures">
-                <li><span class="number" data-bind="text: number, css: type"></span> <span data-bind="text: destination"></span> <span class="time hurry" data-bind="text: timeLeft"></span></li>
+                <li><span class="number" data-bind="text: number, css: type"></span> <span data-bind="text: destination"></span> <span class="time" data-bind="text: timeLeft, css: warning"></span></li>
             </ul>
         </script>
         <div class="wrapper">
@@ -143,7 +143,6 @@
                 departureTime.setHours(hours);
                 departureTime.setMinutes(minutes);
                 // roll over day
-                // TODO: better logic
                 if (departureTime < now) {
                     departureTime.setDate(departureTime.getDate() + 1);
                 }
@@ -158,36 +157,84 @@
             };
             
             var updateTime = function (stop) {
-                var now = new Date();
-                stop.departures().forEach(function (dep) {
-                    dep.minutesLeft = minutesTillDeparture(now, dep);
-                    dep.timeLeft(dep.minutesLeft + " min");
-                    // TODO: update class
+                var entries = 0, i = 0, now = new Date();
+                stop.allDepartures.forEach(function (dep) {
+                    dep.minutesLeft(minutesTillDeparture(now, dep));
                 });
-                stop.departures.sort(function (left, right) {
-                    return left.minutesLeft - right.minutesLeft;
+                stop.allDepartures.sort(function (left, right) {
+                    return left.minutesLeft() - right.minutesLeft();
                 });
+                
+                stop.departures.removeAll();
+                while (entries < stop.maxEntries) {
+                    var dep = stop.allDepartures[i++];
+                    if (dep.minutesLeft() < stop.minTime) {
+                        continue;
+                    }
+                    stop.departures.push(dep);
+                    ++entries;
+                }
             };
             
-            var getStop = function (allData, name) {
+            var createStopVm = function (allData, spec) {
                 var stop = allData.stops.filter(function (stop) {
-                    return stop.name === name;
+                    return stop.name === spec.name;
                 })[0];
+                stop.maxEntries = spec.maxEntries;
+                stop.minTime = spec.minTime;
+                stop.hurryTime = spec.hurryTime;
+                stop.mediumTime = spec.mediumTime;
                 stop.departures.forEach(function (dep) {
                     dep.type = dep.number.length > 2 ? 'bus' : 'tram';
                     // minutes till departure
-                    dep.minutesLeft = 0;
-                    dep.timeLeft = ko.observable('0 min');
+                    dep.minutesLeft = ko.observable(0);
+                    dep.timeLeft = ko.computed(function () {
+                        return this.minutesLeft() + ' min';
+                    }, dep);
+                    dep.warning = ko.computed(function () {
+                        var minLeft = this.minutesLeft();
+                        if (minLeft <= stop.hurryTime) {
+                            return 'hurry';
+                        } else if (minLeft <= stop.mediumTime) {
+                            return 'medium';
+                        } else {
+                            return 'easy';
+                        }
+                    }, dep);
                 });
                 stop.allDepartures = stop.departures;
-                stop.departures = ko.observableArray(stop.allDepartures);
+                stop.departures = ko.observableArray([ ]);
                 return stop;
             };
             
+            var rondoMatecznegoSpec = {
+                name: 'Rondo Matecznego',
+                maxEntries: 21,
+                minTime: 6,
+                hurryTime: 6,
+                mediumTime: 8
+            };
+            
+            var lagiewnikiSpec = {
+                name: 'Łagiewniki',
+                maxEntries: 13,
+                minTime: 4,
+                hurryTime: 6,
+                mediumTime: 8
+            };
+            
+            var rzemieslniczaSpec = {
+                name: 'Rzemieślnicza',
+                maxEntries: 4,
+                minTime: 2,
+                hurryTime: 6,
+                mediumTime: 8
+            };
+            
             var vm = {
-                rondoMatecznego: getStop(data, 'Rondo Matecznego'),
-                lagiewniki: getStop(data, 'Łagiewniki'),
-                rzemieslnicza: getStop(data, 'Rzemieślnicza'),
+                rondoMatecznego: createStopVm(data, rondoMatecznegoSpec),
+                lagiewniki: createStopVm(data, lagiewnikiSpec),
+                rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
             };
             
             updateTime(vm.rondoMatecznego);
