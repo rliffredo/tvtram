@@ -1,5 +1,13 @@
+import sys
+PY2 = sys.version_info[0] == 2
+
+if PY2:
+    from urllib2 import urlopen
+else:
+    from urllib.request import urlopen
+
+
 import bs4
-import urllib.request
 import codecs
 import json
 import concurrent.futures
@@ -22,13 +30,9 @@ class Stop:
         self.name = name
         self.departures = [ ]
 
-def prints(text):
-    #print(text.encode('ascii', 'ignore'))
-    pass
-
 def get_soup(url):
-    request = urllib.request.urlopen('http://rozklady.mpk.krakow.pl/aktualne/' + url)
-    return bs4.BeautifulSoup(request.readall())
+    request = urlopen('http://rozklady.mpk.krakow.pl/aktualne/' + url)
+    return bs4.BeautifulSoup(request.read())
 
 def scrap_stops():
     soup = get_soup('przystan.htm')
@@ -37,7 +41,6 @@ def scrap_stops():
     for stop in stops:
         if stop.get('href') is None:
             continue
-        # prints('found stop: ' + stop.text)
         result.append((stop.text, stop.get('href')))
     return result
 
@@ -46,7 +49,6 @@ def parse_line(text):
     return tuple(text.split(' - > '))
     
 def scrap_line(number, destination, link):
-    prints('scraping line: ' + number + ' ' + destination)
     # build the link: r is the version with frames, t is without frames
     # there is only one r in the link
     link = link.replace('r', 't')
@@ -65,7 +67,6 @@ def scrap_line(number, destination, link):
             suffix = min_part[2:]
             time = hour + ':' + min
             departures.append(Departure(number, destination, time, len(suffix) > 0))
-    prints(' '.join(str(dep) for dep in departures))
     return departures    
 
 def process_stop_line(line):
@@ -76,7 +77,6 @@ def process_stop_line(line):
     return scrap_line(number, destination, link)
 
 def scrap_stop(name, link):
-    prints('scraping stop: ' + name)
     soup = get_soup(link)
     stop = Stop(name)
     lines = soup.select('table a')
@@ -116,14 +116,15 @@ def get_schedules(stop_names):
         }
         return schedules
 
-def get_specific_schedules():
-    return get_schedules([
-        'Rondo Matecznego',
-        b'\xc5\x81agiewniki'.decode('utf-8'),
-        b'Rzemie\xc5\x9blnicza'.decode('utf-8')
-    ])
-
 if __name__ == '__main__':
+
+    def get_specific_schedules():
+        return get_schedules([
+            'Rondo Matecznego',
+            b'\xc5\x81agiewniki'.decode('utf-8'),
+            b'Rzemie\xc5\x9blnicza'.decode('utf-8')
+        ])
+
     schedule = get_specific_schedules()
     json_data = json.dumps(schedule)
     
