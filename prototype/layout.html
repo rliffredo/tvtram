@@ -130,67 +130,55 @@
     </style>
     </head>
     <body>
+        <script type="text/html" id="line-template">
+            <h1 data-bind="text: name"></h1>
+            <ul data-bind="foreach: departures">
+                <li><span class="number" data-bind="text: number, css: type"></span> <span data-bind="text: destination"></span> <span class="time hurry" data-bind="text: timeLeft">4 min.</span></li>
+            </ul>
+        </script>
         <div class="wrapper">
             <div class="left">
-                <div class="topLeft">
-                    <h1>Rondo Matecznego</h1>
-                    <ul>
-                        <li><span class="number bus">174</span> Kurdwanów <span class="time hurry">4 min.</span></li>
-                        <li><span class="number bus">164</span> Kurdwanów <span class="time medium">8 min.</span></li>
-                        <li><span class="number bus">173</span> Azory <span class="time medium">12 min.</span></li>
-                        <li><span class="number bus">144</span> Krowodrza <span class="time medium">16 min.</span></li>
-                        <li><span class="number bus">164</span> Górka Narodowa <span class="time easy">19 min.</span></li>
-                        <li><span class="number bus">174</span> Prądnik Czerwony <span class="time easy">22 min.</span></li>
-                        <li><span class="number bus">173</span> Bieżanów Nowy <span class="time easy">27 min.</span></li>
-                        <li><span class="number bus">144</span> Rżąka <span class="time easy">31 min.</span></li>
-                    </ul>
-                </div>
+                <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
                 <div class="bottom">
                     <h4>TV Tram - Hack Days 2013</h4>
                 </div>
             </div>
             <div class="right">
-                <div class="top">
-                    <h1>Łagiewniki</h1>
-                    <ul>
-                        <li><span class="number bus">133</span> Kurdwanów <span class="time hurry">7 min.</span></li>
-                        <li><span class="number bus">155</span> Kurdwanów <span class="time medium">11 min.</span></li>
-                        <li><span class="number bus">133</span> Bieżanów Potrzask <span class="time medium">12 min.</span></li>
-                        <li><span class="number tram">22</span> Borek Fałęcki <span class="time medium">13 min.</span></li>
-                        <li><span class="number bus">106</span> Skotniki Szkoła <span class="time easy">15 min.</span></li>
-                        <li><span class="number bus">166</span> Sidzina <span class="time easy">22 min.</span></li>
-                        <li><span class="number bus">178</span> Mistrzejowice <span class="time easy">27 min.</span></li>
-                        <li><span class="number bus">915</span> Świątniki Cmentarz <span class="time easy">31 min.</span></li>
-                    </ul>
-                </div>
-                <div class="bottom">
-                    <h1>Rzemieślnicza</h1>
-                    <ul>
-                        <li><span class="number tram">10</span> Kurdwanów <span class="time hurry">7 min.</span></li>
-                        <li><span class="number tram">23</span> Kurdwanów <span class="time medium">11 min.</span></li>
-                        <li><span class="number tram">8</span> Bieżanów Potrzask <span class="time medium">12 min.</span></li>
-                        <li><span class="number tram">19</span> Borek Fałęcki <span class="time medium">13 min.</span></li>
-                        <li><span class="number tram">10</span> Skotniki Szkoła <span class="time easy">15 min.</span></li>
-                        <li><span class="number tram">8</span> Sidzina <span class="time easy">22 min.</span></li>
-                        <li><span class="number tram">19</span> Mistrzejowice <span class="time easy">27 min.</span></li>
-                        <li><span class="number tram">23</span> Świątniki Cmentarz <span class="time easy">31 min.</span></li>
-                    </ul>
-                </div>
+                <div class="top" data-bind="template: { name: 'line-template', data: lagiewniki }"></div>
+                <div class="bottom" data-bind="template: { name: 'line-template', data: rzemieslnicza }"></div>
             </div> 
         </div>
         <script src="knockout-2.2.1.js"></script>
         <script src="data.js"></script>
         <script>
-            var findData = function (data, name) {
-                return data.stops.filter(function (element) {
-                    return element.name === name;
+            var minutesTillDeparture = function (now, dep) {
+                return "10min";
+            };
+            
+            var updateTime = function (stop) {
+                var now = new Date();
+                stop.departures.forEach(function (dep) {
+                    dep.timeLeft(minutesTillDeparture(now, dep));
+                });
+            };
+            
+            var getStopData = function (allData, name) {
+                var stopData = allData.stops.filter(function (stop) {
+                    return stop.name === name;
                 })[0];
+                stopData.departures.forEach(function (dep) {
+                    dep.type = dep.number.length > 2 ? 'bus' : 'tram';
+                    dep.timeLeft = ko.observable(dep.time);
+                });
+                return stopData;
             };
+            
             var vm = {
-                rondoMatecznego: findData(data, 'Rondo Matecznego'),
-                lagiewniki: findData(data, 'Łagiewniki'),
-                rzemieslnicza: findData(data, 'Rzemieślnicza'),
+                rondoMatecznego: getStopData(data, 'Rondo Matecznego'),
+                lagiewniki: getStopData(data, 'Łagiewniki'),
+                rzemieslnicza: getStopData(data, 'Rzemieślnicza'),
             };
+            
             ko.applyBindings(vm);
         </script>
     </body>
