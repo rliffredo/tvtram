@@ -9,16 +9,6 @@
           src: url(./BPdotsUnicase.otf);
         }
 
-        @font-face {
-          font-family: "BPdots Square";
-          src: url(./BPdotsUnicaseSquare.otf);
-        }
-
-        @font-face {
-          font-family: "BPdots Square Plus";
-          src: url(./BPdotsUnicasePlus.otf);
-        }
-
         .wrapper{
            position: relative;
            float: left;
@@ -32,7 +22,7 @@
            left: 0.00%;
            width: 50.00%;
            height: 1080px;
-           border-right: dotted orange;
+           /*border-right: dotted orange;*/
         }
 
         .right{
@@ -41,9 +31,8 @@
         }
 
         .top{
-           width:100%;
-   height: 640px;
-           border-bottom: dotted DarkOrange;
+		  width:100%;
+		  height: 640px;
         }
 
         .topLeft{
@@ -61,6 +50,7 @@
            background-color: black;
            font-family: "BPdots", sans-serif;
            text-transform:uppercase;
+		   width: 1920px;
         }
 
         ul
@@ -72,10 +62,11 @@
 
         h1
         {
-            margin: 0px 0px 25px 50px;
+            margin: 10px 0px 10px 50px;
             color: DarkOrange;
+			font-size: 1.6em;
         }
-
+		
         li .time{
            float:right;
            padding-right: 70px;
@@ -94,9 +85,10 @@
         }
             
         .number{
-          width: 1.5em;
+          width: 2em;
           display: inline-block;
           text-align: right;
+		  color: DarkOrange;
         }
 
         .bus{
@@ -110,6 +102,20 @@
           padding-left: 1em;
           background-size: 0.75em;
         }
+			
+		.logo
+        {
+            margin: 1em 2em 0 0;
+            color: DarkOrange;
+			display: inline;
+			float: right;
+        }
+		
+		.clock{
+			font-size: 1.5em;
+			margin: 0 0 0 1em;
+			color: DarkOrange;
+		}
     </style>
     </head>
     <body>
@@ -123,13 +129,15 @@
             <div class="left">
                 <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
 			
-                <div class="bottom">
-                    <h4>TV Tram - Hack Days 2013</h4>
+                <div class="bottomLeft">
+					<span class="clock" data-bind="text: currentTime"></span>
                 </div>
             </div>
             <div class="right">
                 <div class="top" data-bind="template: { name: 'line-template', data: lagiewniki }"></div>
                 <div class="bottom" data-bind="template: { name: 'line-template', data: rzemieslnicza }"></div>
+				
+				<span class="logo">TV Tram - Hack Day 2013</span>
 			</div> 
         </div>
         <script src="knockout-2.2.1.js"></script>
@@ -169,8 +177,8 @@
                     : (left < right ? -1 : 1);
             };
             
-            var updateTime = function (stop) {
-                var entries = 0, i = 0, now = getCurrentTime();
+            var updateTime = function (stop, now) {
+                var entries = 0, i = 0;
                 stop.allDepartures.forEach(function (dep) {
                     dep.minutesLeft(minutesTillDeparture(now, dep));
                 });
@@ -230,23 +238,23 @@
             
             var rondoMatecznegoSpec = {
                 name: 'Rondo Matecznego',
-                maxEntries: 21,
-                minTime: 6,
-                hurryTime: 6,
-                mediumTime: 8
+                maxEntries: 22,
+                minTime: 5,
+                hurryTime: 8,
+                mediumTime: 15
             };
             
             var lagiewnikiSpec = {
                 name: 'Łagiewniki',
                 maxEntries: 13,
                 minTime: 4,
-                hurryTime: 6,
-                mediumTime: 8
+                hurryTime: 8,
+                mediumTime: 11
             };
             
             var rzemieslniczaSpec = {
                 name: 'Rzemieślnicza',
-                maxEntries: 4,
+                maxEntries: 6,
                 minTime: 2,
                 hurryTime: 6,
                 mediumTime: 8
@@ -256,16 +264,32 @@
                 rondoMatecznego: createStopVm(data, rondoMatecznegoSpec),
                 lagiewniki: createStopVm(data, lagiewnikiSpec),
                 rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
+                currentTime: ko.observable('00:00')
             };
             
-            var updateAll = function () {
-                updateTime(vm.rondoMatecznego);
-                updateTime(vm.lagiewniki);
-                updateTime(vm.rzemieslnicza);
+            var formatHHMM = function (time) {
+                var hours = '00' + time.getHours().toString();
+                var minutes = '00' + time.getMinutes().toString();
+                return hours.slice(-2) + ':' + minutes.slice(-2);
             };
             
-            updateAll();            
-            setInterval(updateAll, 1000 * 30);
+            var updateStops = function () {
+                var now = getCurrentTime();
+                updateTime(vm.rondoMatecznego, now);
+                updateTime(vm.lagiewniki, now);
+                updateTime(vm.rzemieslnicza, now);
+            };
+            
+            var updateClock = function () {
+                var now = getCurrentTime();
+                vm.currentTime(formatHHMM(now));
+            };
+            
+            updateStops();            
+            setInterval(updateStops, 1000 * 30);
+            
+            updateClock();
+            setInterval(updateClock, 1000 * 3);
             
             ko.applyBindings(vm);
         </script>
