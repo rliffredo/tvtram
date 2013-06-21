@@ -9,16 +9,6 @@
           src: url(./BPdotsUnicase.otf);
         }
 
-        @font-face {
-          font-family: "BPdots Square";
-          src: url(./BPdotsUnicaseSquare.otf);
-        }
-
-        @font-face {
-          font-family: "BPdots Square Plus";
-          src: url(./BPdotsUnicasePlus.otf);
-        }
-
         .wrapper{
            position: relative;
            float: left;
@@ -32,7 +22,7 @@
            left: 0.00%;
            width: 50.00%;
            height: 1080px;
-           border-right: dotted orange;
+           /*border-right: dotted orange;*/
         }
 
         .right{
@@ -41,9 +31,8 @@
         }
 
         .top{
-           width:100%;
-   height: 640px;
-           /*border-bottom: dotted DarkOrange;*/
+		  width:100%;
+		  height: 640px;
         }
 
         .topLeft{
@@ -116,9 +105,10 @@
 			
 		.logo
         {
-            margin: 0 0 0 240px;
+            margin: 1em 2em 0 0;
             color: DarkOrange;
 			display: inline;
+			float: right;
         }
 		
 		.clock{
@@ -139,14 +129,15 @@
             <div class="left">
                 <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
 			
-                <div class="bottom">
+                <div class="bottomLeft">
 					<span class="clock" data-bind="text: currentTime"></span>
-                    <span class="logo">TV Tram - Hack Day 2013</span>
                 </div>
             </div>
             <div class="right">
                 <div class="top" data-bind="template: { name: 'line-template', data: lagiewniki }"></div>
                 <div class="bottom" data-bind="template: { name: 'line-template', data: rzemieslnicza }"></div>
+				
+				<span class="logo">TV Tram - Hack Day 2013</span>
 			</div> 
         </div>
         <script src="knockout-2.2.1.js"></script>
@@ -247,18 +238,18 @@
             
             var rondoMatecznegoSpec = {
                 name: 'Rondo Matecznego',
-                maxEntries: 21,
-                minTime: 6,
-                hurryTime: 6,
-                mediumTime: 8
+                maxEntries: 22,
+                minTime: 5,
+                hurryTime: 8,
+                mediumTime: 15
             };
             
             var lagiewnikiSpec = {
                 name: 'Łagiewniki',
                 maxEntries: 13,
                 minTime: 4,
-                hurryTime: 6,
-                mediumTime: 8
+                hurryTime: 8,
+                mediumTime: 11
             };
             
             var rzemieslniczaSpec = {
