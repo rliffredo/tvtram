@@ -80,8 +80,17 @@ def scrap_stop(name, link):
     soup = get_soup(link)
     stop = Stop(name)
     lines = soup.select('table a')
+    
+    #to fix the bug on mpk site which displays some stops twice
+    distinctLines = []
+    prev = ''
+    for l in lines:
+        if (l.string != prev):
+            distinctLines.append(l)
+            prev = l.string
+    
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers_scrap_stop) as executor:
-        futures = [ executor.submit(process_stop_line, line) for line in lines ]
+        futures = [ executor.submit(process_stop_line, line) for line in distinctLines ]
         results = [ future.result() for future in concurrent.futures.as_completed(futures) if future.result() is not None ]
         for res in results:
             stop.departures.extend(res)
