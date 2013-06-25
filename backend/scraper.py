@@ -85,6 +85,7 @@ def scrap_stop(name, link):
     distinctLines = []
     prev = ''
     for l in lines:
+        if name in l.string: continue
         if (l.string != prev):
             distinctLines.append(l)
             prev = l.string
@@ -135,7 +136,7 @@ if __name__ == '__main__':
         ])
 
     schedule = get_specific_schedules()
-    json_data = json.dumps(schedule)
+    json_data = json.dumps(schedule, indent=4, separators=(',',':'))
     
     print(json_data)
     
