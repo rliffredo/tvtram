@@ -6,6 +6,11 @@
     <style type='text/css'>
         @font-face {
           font-family: BPdots;
+          src: url(./BPdotsUnicase.eot);
+        }
+		
+		@font-face {
+          font-family: BPdots;
           src: url(./BPdotsUnicase.otf);
         }
 
@@ -136,6 +141,18 @@
         <script src="knockout-2.2.1.js"></script>
         <script src="data.js"></script>
         <script>
+		    if(Array.prototype.filter === undefined) {
+			    Array.prototype.filter = function(callback) {
+				    var result = [];
+					var i = 0;
+					for(i = 0; i < this.length; i++) {
+					   if(callback(this[i], i, this)) {
+					      result.push(this[i]);
+					   }
+					}
+					return result;
+				}
+			}
             var getCurrentTime = function () {
                 var d = new Date();
                 //d.setHours(14);
