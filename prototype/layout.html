@@ -156,8 +156,6 @@
 			}
             var getCurrentTime = function () {
                 var d = new Date();
-                //d.setHours(14);
-                //d.setMinutes(30);
                 return d;
             };
         
@@ -285,33 +283,38 @@
                     return hours.slice(-2) + ':' + minutes.slice(-2);
                 };
             
-                vm.updateStops = function () {
-                    var now = getCurrentTime();
+                vm.updateStops = function (now) {
                     updateTime(this.rondoMatecznego, now);
                     updateTime(this.lagiewniki, now);
                     updateTime(this.rzemieslnicza, now);
                 };
             
-                vm.updateClock = function () {
-                    var now = getCurrentTime();
+                vm.updateClock = function (now) {
                     this.currentTime(formatHHMM(now));
                 };
-                
+				              
                 return vm;
             };
             
             var data = localData;
+			
+			var calculateNextRefresh = function () {
+			    var now = getCurrentTime();
+				return 60 - now.getSeconds();
+			};
+			
+			var updateView = function () {
+				var now = getCurrentTime();
+			    updateStops(now);
+				updateClock(now);
+				setTimeout(function() { updateView(); }, calculateNextRefresh() * 1000);
+			}
+			
             var runApp = function () {
                 var vm = createVm(data);
                 updateStops = vm.updateStops.bind(vm);
                 updateClock = vm.updateClock.bind(vm);
-                
-                updateStops();
-                setInterval(updateStops, 1000 * 30);
-                
-                updateClock();
-                setInterval(updateClock, 1000 * 3);
-                
+				updateView();               
                 ko.applyBindings(vm);                
             };
             
