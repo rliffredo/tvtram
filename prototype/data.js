@@ -1,15667 +1,14197 @@
 var localData = {
     "stops":[
         {
+            "name":"Rzemie\u015blnicza",
             "departures":[
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"00:20",
                     "number":"608",
-                    "altRoute":false
+                    "time":"00:19"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"00:37",
                     "number":"608",
-                    "altRoute":false
+                    "time":"00:38"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"01:20",
                     "number":"608",
-                    "altRoute":false
+                    "time":"01:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Aleja Przyja\u017ani",
+                    "number":"608",
+                    "time":"01:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"608",
+                    "time":"02:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Aleja Przyja\u017ani",
+                    "number":"608",
+                    "time":"02:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"608",
+                    "time":"03:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Aleja Przyja\u017ani",
+                    "number":"608",
+                    "time":"03:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Aleja Przyja\u017ani",
+                    "number":"608",
+                    "time":"04:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"608",
+                    "time":"04:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"04:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"04:48"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"608",
+                    "time":"04:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"04:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"04:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"04:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"05:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"05:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"05:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"05:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"05:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"05:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"05:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"05:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"05:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"05:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"05:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"06:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"06:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"06:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"06:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"06:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"06:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"06:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"06:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"07:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"07:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"07:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"07:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"07:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"07:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"07:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"07:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"07:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"08:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"08:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"08:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"08:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"08:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"08:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"08:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"08:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"08:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"09:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"09:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"09:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"09:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"09:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"09:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"09:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"09:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"09:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"09:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"09:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"09:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"10:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"10:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"10:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"10:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"10:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"10:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"10:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"10:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"10:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"10:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"10:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"10:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"10:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"10:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"10:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"11:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"11:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"11:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"11:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"11:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"11:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"11:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"11:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"11:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"11:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"11:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"11:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"12:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"12:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"12:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"12:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"12:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"12:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"12:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"12:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"12:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"12:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"12:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"12:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"13:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"13:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"13:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"13:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"13:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"13:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"13:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"13:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"13:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"13:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"13:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"13:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"13:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"13:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"13:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"14:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"14:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"14:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"14:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"14:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"14:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"14:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"14:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"14:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"14:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"14:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"14:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"15:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"15:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"15:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"15:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"15:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"15:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"15:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"15:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"15:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"16:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"16:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"16:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"16:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"16:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"16:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"16:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"16:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"16:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"17:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"17:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"17:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"17:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"17:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"17:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"18:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"18:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"18:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"18:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"18:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"18:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"18:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"18:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"18:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"18:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"18:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"18:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"18:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"18:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"18:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"19:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"19:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"19:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"19:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"19:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"19:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"19:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"19:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"19:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"19:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"19:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"19:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"19:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"19:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"20:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"20:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"20:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"20:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"20:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"20:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"20:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"20:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"20:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"20:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"20:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"21:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"21:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"21:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"21:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"21:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"21:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"21:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"21:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"21:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"21:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"21:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"21:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"21:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"21:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"21:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"22:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"22:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"22:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"22:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"22:14"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"22:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"22:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"22:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"22:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"22:32"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"22:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"22:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"22:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"22:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"22:52"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"23:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"23:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"23:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"23:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Aleja Przyja\u017ani",
+                    "number":"608",
+                    "time":"23:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"23:40"
+                }
+            ]
+        },
+        {
+            "name":"\u0141agiewniki",
+            "departures":[
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"608",
+                    "time":"00:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Aleja Przyja\u017ani",
+                    "number":"608",
+                    "time":"00:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"608",
+                    "time":"01:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"\u015awi\u0105tniki Cmentarz",
-                    "time":"01:25",
                     "number":"915",
-                    "altRoute":false
+                    "time":"01:25"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"01:37",
                     "number":"608",
-                    "altRoute":false
+                    "time":"01:37"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"02:20",
                     "number":"608",
-                    "altRoute":false
+                    "time":"02:20"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"02:37",
                     "number":"608",
-                    "altRoute":false
+                    "time":"02:37"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"03:20",
                     "number":"608",
-                    "altRoute":false
+                    "time":"03:20"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"03:37",
                     "number":"608",
-                    "altRoute":false
+                    "time":"03:37"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"04:07",
                     "number":"608",
-                    "altRoute":false
+                    "time":"04:07"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"04:20",
                     "number":"608",
-                    "altRoute":false
+                    "time":"04:20"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"04:37"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"04:45",
                     "number":"155",
-                    "altRoute":false
+                    "time":"04:45"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"04:45",
                     "number":"8",
-                    "altRoute":false
+                    "time":"04:47"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"04:48",
                     "number":"23",
-                    "altRoute":false
+                    "time":"04:48"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"04:51",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"04:51",
                     "number":"166",
-                    "altRoute":false
+                    "time":"04:51"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"04:58",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"04:54"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"05:00",
-                    "number":"133",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"04:57"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"05:02",
                     "number":"22",
-                    "altRoute":false
+                    "time":"05:02"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"05:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"05:03"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"05:03",
                     "number":"178",
-                    "altRoute":false
+                    "time":"05:03"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"05:03",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:03",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:05",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:08",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:10",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"05:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"05:17",
                     "number":"8",
-                    "altRoute":false
+                    "time":"05:07"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"05:20",
                     "number":"133",
-                    "altRoute":false
+                    "time":"05:07"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:22",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"05:22",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:23",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"05:25",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:26",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:29",
                     "number":"23",
-                    "altRoute":false
+                    "time":"05:08"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"05:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"05:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"05:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"05:22"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"05:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"05:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"05:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"05:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"05:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"05:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"05:34"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"05:34",
                     "number":"166",
-                    "altRoute":false
+                    "time":"05:34"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:35",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"05:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:37",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:38",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"05:37"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"05:39",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:40",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"05:41",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"05:42",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:43",
-                    "number":"22",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"05:37"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"05:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"05:43"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"05:45",
                     "number":"155",
-                    "altRoute":false
+                    "time":"05:45"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:49",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"05:50",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"05:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:51",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:55",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:58",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:58",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"05:59",
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
                     "number":"178",
-                    "altRoute":false
+                    "time":"05:45"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:59",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"05:47"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"05:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"05:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"05:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"05:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"05:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"05:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"05:59"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"05:59",
                     "number":"166",
-                    "altRoute":false
+                    "time":"05:59"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"06:02",
                     "number":"22",
-                    "altRoute":false
+                    "time":"06:02"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:03",
                     "number":"22",
-                    "altRoute":false
+                    "time":"06:03"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"06:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"06:06",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:07",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:09",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"06:12",
                     "number":"106",
-                    "altRoute":false
+                    "time":"06:05"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"06:15",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"06:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
                     "number":"178",
-                    "altRoute":false
+                    "time":"06:10"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"06:15",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:12"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"06:18",
                     "number":"10",
-                    "altRoute":false
+                    "time":"06:12"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:18",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"06:20",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"06:21",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"06:22",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:24",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"06:26",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:28",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"06:28",
                     "number":"178",
-                    "altRoute":false
+                    "time":"06:14"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:29",
                     "number":"23",
-                    "altRoute":false
+                    "time":"06:15"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"06:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"06:34",
                     "number":"8",
-                    "altRoute":false
+                    "time":"06:18"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:34",
-                    "number":"22",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"06:18"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"06:35",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"06:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"06:36",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"06:38",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"06:39",
                     "number":"106",
-                    "altRoute":false
+                    "time":"06:19"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"06:40",
-                    "number":"178",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"06:22"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:40",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"22",
+                    "time":"06:23"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"06:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"06:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"06:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"06:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"06:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"06:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"06:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"06:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"06:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"06:40"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"06:42",
                     "number":"166",
-                    "altRoute":false
+                    "time":"06:42"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:44",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"06:44"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"06:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"06:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"06:45",
                     "number":"155",
-                    "altRoute":false
+                    "time":"06:45"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"06:46",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"06:47",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:47",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:48",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:49",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"06:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"06:52",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"06:52",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"06:53",
                     "number":"23",
-                    "altRoute":false
+                    "time":"06:47"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"06:54",
                     "number":"8",
-                    "altRoute":false
+                    "time":"06:48"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"06:56",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:57",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"06:58",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"06:59",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:00",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:02",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"07:02",
                     "number":"106",
-                    "altRoute":false
+                    "time":"06:48"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:03",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"06:49"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"07:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"07:05",
                     "number":"133",
-                    "altRoute":false
+                    "time":"06:50"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"07:06",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"06:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"22",
-                    "altRoute":false
+                    "time":"06:54"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"06:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"06:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"06:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"06:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"07:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"07:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"07:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"07:06",
                     "number":"166",
-                    "altRoute":false
+                    "time":"07:06"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:07",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:10",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"07:11",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"07:13",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:08"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"07:13",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:08"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"07:15",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"07:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"07:16",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:17",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:18",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"07:20",
                     "number":"133",
-                    "altRoute":false
+                    "time":"07:09"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:23",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:10"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"07:24",
                     "number":"178",
-                    "altRoute":false
+                    "time":"07:10"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:25",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:26",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"07:12"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"07:26",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"22",
-                    "altRoute":false
+                    "time":"07:14"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"07:28",
                     "number":"178",
-                    "altRoute":false
+                    "time":"07:14"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"07:28",
-                    "number":"106",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"07:15"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:15"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:33",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"07:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:34",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"07:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:35",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"07:36",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"07:36",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:38",
                     "number":"10",
-                    "altRoute":false
+                    "time":"07:17"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"07:40",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"07:40",
                     "number":"106",
-                    "altRoute":false
+                    "time":"07:17"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"07:43",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:18"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:43",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:20"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"07:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"07:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"07:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"07:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"07:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"07:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"07:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"07:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"07:34"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"07:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"07:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"07:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"07:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"07:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"07:45",
                     "number":"155",
-                    "altRoute":false
+                    "time":"07:45"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"07:46",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:46",
                     "number":"22",
-                    "altRoute":false
+                    "time":"07:46"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:47",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"07:48",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"07:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:50",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"07:52",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"07:52",
                     "number":"106",
-                    "altRoute":false
+                    "time":"07:47"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"07:53",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:48"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"07:53",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:49"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:55",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:51"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"07:56",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:56",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:58",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"08:00",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:03",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"08:03",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"08:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"08:05",
                     "number":"133",
-                    "altRoute":false
+                    "time":"07:51"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"08:06",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:06",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:07",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"07:52"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"07:54"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"07:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"07:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"07:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"07:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"08:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"08:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"08:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:08"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"08:08",
                     "number":"166",
-                    "altRoute":false
+                    "time":"08:08"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:10",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"08:12",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:13",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"08:13",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:09"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"08:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"08:16",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:16",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"08:17",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:18",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"08:20",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:23",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"08:24",
                     "number":"178",
-                    "altRoute":false
+                    "time":"08:10"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:25",
                     "number":"8",
-                    "altRoute":false
+                    "time":"08:11"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"08:26",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:26",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:27",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"08:12"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"08:14"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"08:28",
                     "number":"178",
-                    "altRoute":false
+                    "time":"08:14"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"08:29",
-                    "number":"106",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"08:15"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:15"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:33",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"08:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:35",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"08:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"08:36",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"08:36",
                     "number":"22",
-                    "altRoute":false
+                    "time":"08:16"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:36",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"08:40",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:41",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"08:42",
                     "number":"106",
-                    "altRoute":false
+                    "time":"08:17"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"08:44",
                     "number":"8",
-                    "altRoute":false
+                    "time":"08:18"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:45",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"08:46",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:46",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:47",
                     "number":"10",
-                    "altRoute":false
+                    "time":"08:18"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:21"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"08:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"08:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"08:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"08:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"08:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"08:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"08:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"08:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"08:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"08:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"08:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"08:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"08:44"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"08:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"08:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"08:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"08:47"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"08:48",
-                    "number":"178",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:48"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:49",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"08:52",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"08:53",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:49"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:54",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:55",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"08:56",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:56",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:58",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"09:00",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:04",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"09:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"09:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"09:06",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"09:06",
                     "number":"106",
-                    "altRoute":false
+                    "time":"08:50"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:06",
-                    "number":"22",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"08:51"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:07",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"08:52"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:09",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:13",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:14",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"09:15",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"09:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"09:16",
                     "number":"22",
-                    "altRoute":false
+                    "time":"08:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"08:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"08:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"08:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"08:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:01"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"09:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"09:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"09:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"09:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"09:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"09:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"09:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"09:16"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"09:16",
                     "number":"166",
-                    "altRoute":false
+                    "time":"09:16"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:16",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"09:18",
                     "number":"10",
-                    "altRoute":false
+                    "time":"09:17"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:22",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:24",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"09:24",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"09:26",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:26",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:27",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:29",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:34",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"09:34",
                     "number":"178",
-                    "altRoute":false
+                    "time":"09:17"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"09:18"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"09:34",
                     "number":"106",
-                    "altRoute":false
+                    "time":"09:19"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"09:35",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"09:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"09:39",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:42",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:21"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:44",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:44",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":true,
                     "destination":"Walcownia",
-                    "time":"09:46",
                     "number":"22",
-                    "altRoute":false
+                    "time":"09:25"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:47",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"22",
+                    "time":"09:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"09:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"09:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"09:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"09:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"09:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"09:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"09:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"09:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"09:47"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"09:48",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:48",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:55",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"09:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"09:55",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"09:58",
                     "number":"178",
-                    "altRoute":false
+                    "time":"09:47"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"09:59",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:02",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:48"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"10:04",
-                    "number":"22",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:49"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:04",
-                    "number":"22",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"09:49"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"10:05",
                     "number":"133",
-                    "altRoute":false
+                    "time":"09:50"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:06",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"10:06",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:07",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"09:51"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:08",
                     "number":"23",
-                    "altRoute":false
+                    "time":"09:55"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"10:14",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"10:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"10:19",
                     "number":"10",
-                    "altRoute":false
+                    "time":"09:58"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"10:22",
-                    "number":"178",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"09:58"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:22",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"10:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"10:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"10:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"10:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"10:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"10:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"10:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"10:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"10:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"10:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"10:23",
                     "number":"166",
-                    "altRoute":false
+                    "time":"10:23"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"10:24",
                     "number":"22",
-                    "altRoute":false
+                    "time":"10:25"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:24",
                     "number":"22",
-                    "altRoute":false
+                    "time":"10:26"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"10:26",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:28"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:27",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:28",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"10:33",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:35",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"10:35",
                     "number":"23",
-                    "altRoute":false
+                    "time":"10:29"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"10:35",
                     "number":"133",
-                    "altRoute":false
+                    "time":"10:29"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"10:39",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:42",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:30"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"10:44",
-                    "number":"22",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"10:35"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:44",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"10:45",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:46",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"10:46",
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
                     "number":"178",
-                    "altRoute":false
+                    "time":"10:35"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:47",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"10:38"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"10:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"10:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"10:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"10:47"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:48",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:55",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"10:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"10:57",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"10:59",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"11:04",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:04",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"11:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:06",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:07",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:08",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"11:09",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"11:10",
                     "number":"178",
-                    "altRoute":false
+                    "time":"10:47"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"11:15",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:48"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"11:15",
                     "number":"23",
-                    "altRoute":false
+                    "time":"10:49"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"11:19",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"10:49"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"11:21",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:22",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:50"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"11:24",
-                    "number":"22",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"10:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"10:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:24",
-                    "number":"22",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"11:00"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"11:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"11:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"11:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"11:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"11:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"11:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"11:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"11:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"11:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"11:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"11:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"11:25",
                     "number":"166",
-                    "altRoute":false
+                    "time":"11:25"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:26",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:27",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"22",
+                    "time":"11:26"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:28",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"11:32",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"11:34",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"11:35",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:28"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"11:35",
                     "number":"23",
-                    "altRoute":false
+                    "time":"11:29"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"11:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"11:39",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:42",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:30"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"11:44",
-                    "number":"22",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"11:35"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:44",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"11:45",
                     "number":"178",
-                    "altRoute":false
+                    "time":"11:35"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:46",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:47",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"11:38"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"11:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"11:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"11:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"11:47"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:48",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:55",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"11:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"11:56",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"11:58",
                     "number":"178",
-                    "altRoute":false
+                    "time":"11:47"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"11:59",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:02",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:48"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"12:04",
-                    "number":"22",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:49"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:04",
-                    "number":"22",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"11:49"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"12:05",
                     "number":"133",
-                    "altRoute":false
+                    "time":"11:49"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:06",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:07",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"11:50"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:08",
                     "number":"23",
-                    "altRoute":false
+                    "time":"11:55"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"12:09",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"12:19",
                     "number":"10",
-                    "altRoute":false
+                    "time":"11:58"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"12:20",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"12:22",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:22",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"12:00"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"12:24",
                     "number":"22",
-                    "altRoute":false
+                    "time":"12:05"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"12:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"12:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"12:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"12:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"12:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"12:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"12:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"12:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"12:24",
                     "number":"166",
-                    "altRoute":false
+                    "time":"12:24"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:24",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:26",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:27",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:28",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"12:33",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:35",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:35",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"12:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"12:39",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"12:40",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:42",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"12:44",
                     "number":"22",
-                    "altRoute":false
+                    "time":"12:25"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:44",
                     "number":"22",
-                    "altRoute":false
+                    "time":"12:26"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"12:45",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"12:46",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:28"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:29"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:47",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"12:30"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"12:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"12:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"12:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"12:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"12:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"12:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"12:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"12:47"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:48",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:55",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"12:57",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"12:59",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"13:04",
                     "number":"178",
-                    "altRoute":false
+                    "time":"12:47"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"13:04",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:04",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"13:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"13:07",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:48"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:08",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"13:08",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:08",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:13",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:15",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:17",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"13:20",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"13:20",
                     "number":"23",
-                    "altRoute":false
+                    "time":"12:49"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"12:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"12:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"12:55"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"13:21",
                     "number":"10",
-                    "altRoute":false
+                    "time":"12:58"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"13:00"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"13:24",
                     "number":"22",
-                    "altRoute":false
+                    "time":"13:05"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"13:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"13:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"13:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"13:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"13:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"13:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"13:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"13:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"13:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"13:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"13:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"13:24",
                     "number":"166",
-                    "altRoute":false
+                    "time":"13:24"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:26",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:27",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"13:28",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:28",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:29",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"13:30",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"13:31",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:31",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"13:34",
                     "number":"22",
-                    "altRoute":false
+                    "time":"13:25"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:36",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"22",
+                    "time":"13:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"13:27"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"13:37",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:28"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:38",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"13:40",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:29"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"13:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"13:41",
                     "number":"10",
-                    "altRoute":false
+                    "time":"13:32"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"13:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"13:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"13:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"13:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"13:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"13:42"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"13:43",
                     "number":"155",
-                    "altRoute":false
+                    "time":"13:43"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"13:44",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"13:44",
                     "number":"22",
-                    "altRoute":false
+                    "time":"13:45"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"13:45",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:46",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:47",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:48",
                     "number":"22",
-                    "altRoute":false
+                    "time":"13:46"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:49",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"13:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:51",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"13:52",
                     "number":"178",
-                    "altRoute":false
+                    "time":"13:47"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"13:54",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:56",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"13:57",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:48"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"13:57",
                     "number":"106",
-                    "altRoute":false
+                    "time":"13:48"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:58",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"14:00",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"14:00",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:49"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:01",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"14:04",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:05",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:50"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"14:05",
                     "number":"133",
-                    "altRoute":false
+                    "time":"13:51"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:07",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:08",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:09",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"13:52"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"14:09",
-                    "number":"106",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"13:55"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:11",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:55"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"14:14",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"22",
-                    "altRoute":false
+                    "time":"13:56"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"14:15",
                     "number":"178",
-                    "altRoute":false
+                    "time":"13:57"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"14:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"14:17",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:58"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:18",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"14:20",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"14:20",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:21",
                     "number":"10",
-                    "altRoute":false
+                    "time":"14:00"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"14:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"14:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"14:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:08"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"14:21",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:09"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"14:24",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:25",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:10"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:27",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"14:11"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"14:27",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"14:28",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:28",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:29",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"14:12"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"14:30",
-                    "number":"106",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"14:14"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"14:34",
                     "number":"22",
-                    "altRoute":false
+                    "time":"14:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"14:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"14:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"14:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"14:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"14:22"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"14:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"14:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"14:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"14:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"14:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"14:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"14:32"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"14:34",
                     "number":"166",
-                    "altRoute":false
+                    "time":"14:34"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:35",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"14:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:38",
+                    "altRoute":false,
+                    "destination":"Walcownia",
                     "number":"22",
-                    "altRoute":false
+                    "time":"14:35"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"14:39",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"14:40",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:41",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"14:41",
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"14:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"14:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"14:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:41"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"14:43",
                     "number":"155",
-                    "altRoute":false
+                    "time":"14:43"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"14:44",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"14:44",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:45",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:47",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:48",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:49",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"14:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"14:52",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"14:52",
                     "number":"178",
-                    "altRoute":false
+                    "time":"14:44"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"14:54",
                     "number":"22",
-                    "altRoute":false
+                    "time":"14:45"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"14:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:55",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"22",
+                    "time":"14:46"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"14:56",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"14:57",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:48"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:58",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:01",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"15:01",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:49"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"15:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"15:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"15:04",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"15:05",
                     "number":"133",
-                    "altRoute":false
+                    "time":"14:50"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:07",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:51"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:08",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:09",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"15:09",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"15:14",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"15:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"15:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:17",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:18",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"15:20",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"15:21",
                     "number":"10",
-                    "altRoute":false
+                    "time":"14:52"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"15:21",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"15:21",
                     "number":"106",
-                    "altRoute":false
+                    "time":"14:52"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"15:24",
                     "number":"22",
-                    "altRoute":false
+                    "time":"14:55"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:25",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:27",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"15:28",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"15:28",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:28",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:29",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"15:31",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:32",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:55"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"15:34",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:35",
+                    "number":"22",
+                    "time":"14:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:58"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"14:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"14:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"15:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"15:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"15:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"15:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"15:09"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"15:35",
                     "number":"133",
-                    "altRoute":false
+                    "time":"15:10"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"15:14"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"15:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"15:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"15:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"15:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"15:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"15:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"15:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"15:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"15:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"15:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"15:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"15:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"15:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"15:35"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"15:35",
                     "number":"166",
-                    "altRoute":false
+                    "time":"15:35"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:38",
                     "number":"22",
-                    "altRoute":false
+                    "time":"15:36"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"15:40",
-                    "number":"178",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"15:36"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"15:40",
-                    "number":"178",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"15:38"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:41",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"10",
-                    "altRoute":false
+                    "time":"15:38"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"15:41",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:41"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"15:43",
                     "number":"155",
-                    "altRoute":false
+                    "time":"15:43"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"15:44",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:45",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"15:45",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:47",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:48",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:49",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"15:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"15:52",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"15:52",
                     "number":"178",
-                    "altRoute":false
+                    "time":"15:44"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":true,
                     "destination":"Walcownia",
-                    "time":"15:54",
                     "number":"22",
-                    "altRoute":false
+                    "time":"15:45"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"15:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:55",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"22",
+                    "time":"15:46"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"15:57",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:48"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"15:57",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:58",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:01",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"16:01",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:49"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"16:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"16:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"16:05",
                     "number":"133",
-                    "altRoute":false
+                    "time":"15:49"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"16:06",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:07",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:51"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:08",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:09",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"16:09",
                     "number":"106",
-                    "altRoute":false
+                    "time":"15:51"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"16:14",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"16:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"16:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:17",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:18",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"16:20",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"16:21",
                     "number":"10",
-                    "altRoute":false
+                    "time":"15:52"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"16:21",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"16:21",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"16:24",
                     "number":"22",
-                    "altRoute":true
+                    "time":"15:55"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:25",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:27",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"16:28",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"16:28",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:28",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:29",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"16:31",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:32",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:55"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"16:34",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:35",
+                    "number":"22",
+                    "time":"15:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:58"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"15:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"15:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"16:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:01"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"16:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"16:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"16:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"16:09"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"16:35",
                     "number":"133",
-                    "altRoute":false
+                    "time":"16:09"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"16:14"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"16:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"16:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"16:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"16:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"16:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"16:21"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"16:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"16:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"16:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"16:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"16:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"16:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"16:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"16:35"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"16:35",
                     "number":"166",
-                    "altRoute":false
+                    "time":"16:35"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:38",
                     "number":"22",
-                    "altRoute":false
+                    "time":"16:36"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:39",
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"16:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"10",
-                    "altRoute":false
+                    "time":"16:38"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"16:40",
-                    "number":"178",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:41"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"16:40",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"16:41",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"16:43",
                     "number":"155",
-                    "altRoute":false
+                    "time":"16:43"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:45",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"16:45",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"16:45",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:47",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:48",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:49",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"16:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:51",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"16:52",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"16:52",
                     "number":"178",
-                    "altRoute":false
+                    "time":"16:44"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:55",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":true,
                     "destination":"Walcownia",
-                    "time":"16:55",
                     "number":"22",
-                    "altRoute":false
+                    "time":"16:45"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"16:56",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"16:45"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"16:57",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:58",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:58",
                     "number":"22",
-                    "altRoute":false
+                    "time":"16:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"16:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"16:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"16:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"16:51"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"17:00",
                     "number":"10",
-                    "altRoute":false
+                    "time":"16:52"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"17:04",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"17:05",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"17:05",
                     "number":"22",
-                    "altRoute":true
+                    "time":"16:55"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"17:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:07",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:08",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:09",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"17:09",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:13",
                     "number":"23",
-                    "altRoute":false
+                    "time":"16:55"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:14",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"17:15",
                     "number":"22",
-                    "altRoute":false
+                    "time":"16:56"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"17:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"17:16",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"17:17",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:58"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"16:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"17:17",
                     "number":"178",
-                    "altRoute":false
+                    "time":"16:59"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"17:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:01"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"17:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"17:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"17:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"17:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:11"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"17:19",
                     "number":"10",
-                    "altRoute":false
+                    "time":"17:12"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"17:20",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:20",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"17:21",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:23",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"17:26",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:27",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:28",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"17:28",
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
                     "number":"178",
-                    "altRoute":false
+                    "time":"17:14"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"17:15"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:28",
                     "number":"23",
-                    "altRoute":false
+                    "time":"17:15"
                 },
                 {
-                    "destination":"Pod Fortem",
-                    "time":"17:29",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:33",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"17:33",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"17:35",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"17:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"17:39",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"17:40",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:40",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"17:42",
                     "number":"178",
-                    "altRoute":false
+                    "time":"17:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"17:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"17:21"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"17:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"17:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"17:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"17:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"17:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"17:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"17:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"17:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"17:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:41"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"17:43",
                     "number":"155",
-                    "altRoute":false
+                    "time":"17:43"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"17:43",
                     "number":"166",
-                    "altRoute":false
+                    "time":"17:43"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:44",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"17:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:46",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:47",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:48",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"17:50",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"17:50",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"17:52",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:53",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"17:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:58",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"18:00",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:00",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"18:02",
                     "number":"178",
-                    "altRoute":false
+                    "time":"17:44"
                 },
                 {
+                    "altRoute":true,
                     "destination":"Walcownia",
-                    "time":"18:02",
                     "number":"22",
-                    "altRoute":false
+                    "time":"17:45"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:04",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"18:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"18:07",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:08",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:08",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:08",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:14",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"18:14",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"18:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"18:20",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:20",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"18:22",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"18:24",
                     "number":"178",
-                    "altRoute":false
+                    "time":"17:45"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:24",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:26",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:28",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"18:28",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"18:29",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:34",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"18:35",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"18:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"18:39",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"18:40",
                     "number":"8",
-                    "altRoute":false
+                    "time":"17:48"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:41",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"18:42",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:44",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:46",
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
                     "number":"23",
-                    "altRoute":false
+                    "time":"17:49"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"17:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"17:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"17:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"17:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"18:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"18:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"18:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"18:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"18:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"18:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"18:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"18:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"18:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"18:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"18:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"18:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"18:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"18:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"18:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"18:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"18:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"18:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"18:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"18:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"18:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"18:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"18:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"18:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"18:47"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:48",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"18:48",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"18:49",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"18:52",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:54",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"18:48"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"18:55",
                     "number":"23",
-                    "altRoute":false
+                    "time":"18:49"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"18:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"18:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"18:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"18:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"18:58",
                     "number":"166",
-                    "altRoute":false
+                    "time":"18:58"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"19:00",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:00"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"19:02",
                     "number":"22",
-                    "altRoute":false
+                    "time":"19:05"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:03",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"19:05",
                     "number":"106",
-                    "altRoute":false
+                    "time":"19:05"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"19:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:06",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:08",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"19:09",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"19:13",
                     "number":"178",
-                    "altRoute":false
+                    "time":"19:07"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:14",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"19:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"19:17",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"19:20",
                     "number":"8",
-                    "altRoute":false
+                    "time":"19:08"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:23",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"19:25",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:27",
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:09"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:28",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"19:10"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"19:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"19:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"19:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"19:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"19:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"19:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"19:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"19:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"19:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"19:29",
                     "number":"106",
-                    "altRoute":false
+                    "time":"19:33"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"19:30",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:34",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"19:35",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"19:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"19:38",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"19:41",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:42",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"19:43",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"19:46",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:46",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"19:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"19:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"19:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"19:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"19:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"19:47"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:48",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"19:50",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"19:51",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:54",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"19:48"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"19:56",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:49"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"19:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"19:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"19:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"19:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"19:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"20:00"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"20:00",
                     "number":"166",
-                    "altRoute":false
+                    "time":"20:00"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"20:02",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:02",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"20:05",
                     "number":"22",
-                    "altRoute":false
+                    "time":"20:05"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"20:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:07",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"20:08",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:09",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:12",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:13",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"20:16",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"20:20",
                     "number":"106",
-                    "altRoute":false
+                    "time":"20:06"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:22",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:22",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"20:24",
                     "number":"178",
-                    "altRoute":false
+                    "time":"20:07"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"20:26",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:28",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:30",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"20:32",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:32",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:35",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"20:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"20:36",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"20:42",
                     "number":"8",
-                    "altRoute":false
+                    "time":"20:08"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"20:08"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:42",
-                    "number":"22",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"20:09"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"20:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"20:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:19"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"20:24"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"20:44",
                     "number":"22",
-                    "altRoute":false
+                    "time":"20:25"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"20:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"20:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"20:29"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"20:44",
                     "number":"106",
-                    "altRoute":false
+                    "time":"20:34"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"20:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"20:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"20:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"20:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"20:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"20:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"20:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"20:47"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"20:48",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:48",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:49",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:52",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"20:56",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"20:56",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:57",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"20:48"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"20:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"20:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"20:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"20:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Sidzina",
-                    "time":"21:00",
                     "number":"166",
-                    "altRoute":false
+                    "time":"21:00"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"21:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:02",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"21:04",
                     "number":"22",
-                    "altRoute":false
+                    "time":"21:05"
                 },
                 {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"21:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Skotniki Szko\u0142a",
-                    "time":"21:08",
                     "number":"106",
-                    "altRoute":false
+                    "time":"21:06"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:08",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:10",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Mistrzejowice",
-                    "time":"21:12",
                     "number":"178",
-                    "altRoute":false
+                    "time":"21:06"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:12",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"21:16",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:07"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:17",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"21:20",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"21:22",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:08"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:22",
-                    "number":"22",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"21:09"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"21:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"21:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"21:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"21:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"21:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Walcownia",
-                    "time":"21:24",
                     "number":"22",
-                    "altRoute":false
+                    "time":"21:25"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:28",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:30",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"21:30",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:32",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"21:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"21:36",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"21:36",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:27"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"21:42",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"21:45",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:28"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:45",
-                    "number":"22",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"21:29"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"21:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"21:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"21:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"21:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"21:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"21:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"21:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"21:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"21:47"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"21:48",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:48",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:50",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"21:54",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:56",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"21:56",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:57",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Mistrzejowice",
-                    "time":"22:00",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"22:05",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:05",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pod Fortem",
-                    "time":"22:06",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"22:07",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:48"
                 },
                 {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"22:08",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:09",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"21:49"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"22:11",
+                    "altRoute":false,
+                    "destination":"Pod Fortem",
+                    "number":"178",
+                    "time":"21:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"22",
-                    "altRoute":true
+                    "time":"21:56"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:57"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:15",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"21:58"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"22:17",
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:58"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"22:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"22:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"22:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"22:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"22:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"22:08"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"22:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"22:14"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"22:16"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:17"
+                },
+                {
+                    "altRoute":true,
                     "destination":"Sidzina",
-                    "time":"22:17",
                     "number":"166",
-                    "altRoute":true
+                    "time":"22:17"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"22:24",
-                    "number":"178",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:24",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"22:25",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:26",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"22:28",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"22:28",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:18"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"22:30",
                     "number":"178",
-                    "altRoute":false
+                    "time":"22:24"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:34",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Bie\u017can\u00f3w Potrzask",
-                    "time":"22:35",
-                    "number":"133",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"22:37",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:26"
                 },
                 {
-                    "destination":"Skotniki Szko\u0142a",
-                    "time":"22:41",
-                    "number":"106",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Walcownia",
-                    "time":"22:42",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:42",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"22:45",
                     "number":"8",
-                    "altRoute":false
+                    "time":"22:27"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"22:28"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:46",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"22",
+                    "time":"22:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"22:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Skotniki Szko\u0142a",
+                    "number":"106",
+                    "time":"22:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Bie\u017can\u00f3w Potrzask",
+                    "number":"133",
+                    "time":"22:35"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w",
+                    "number":"23",
+                    "time":"22:38"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"22:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"22:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Mistrzejowice",
+                    "number":"178",
+                    "time":"22:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"22:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Swoszowice Poczta",
-                    "time":"22:47",
                     "number":"155",
-                    "altRoute":false
+                    "time":"22:47"
                 },
                 {
-                    "destination":"Mistrzejowice",
-                    "time":"22:48",
-                    "number":"178",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"22:48"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"22:52",
-                    "number":"10",
-                    "altRoute":true
-                },
-                {
+                    "altRoute":false,
                     "destination":"Pod Fortem",
-                    "time":"22:54",
                     "number":"178",
-                    "altRoute":false
+                    "time":"22:48"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:54",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"22:57",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:00",
                     "number":"22",
-                    "altRoute":false
+                    "time":"22:52"
                 },
                 {
-                    "destination":"Walcownia",
-                    "time":"23:02",
-                    "number":"22",
-                    "altRoute":true
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:06",
                     "number":"10",
-                    "altRoute":false
+                    "time":"22:54"
                 },
                 {
+                    "altRoute":true,
                     "destination":"Plesz\u00f3w",
-                    "time":"23:12",
                     "number":"10",
-                    "altRoute":true
+                    "time":"22:57"
                 },
                 {
+                    "altRoute":true,
+                    "destination":"Walcownia",
+                    "number":"22",
+                    "time":"23:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"23:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"23:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"23:12"
+                },
+                {
+                    "altRoute":true,
                     "destination":"Sidzina",
-                    "time":"23:12",
                     "number":"166",
-                    "altRoute":true
+                    "time":"23:12"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:14",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"23:14"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"23:17",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:18",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":true,
                     "destination":"Walcownia",
-                    "time":"23:22",
                     "number":"22",
-                    "altRoute":true
+                    "time":"23:23"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:26",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"23:29",
-                    "number":"10",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:36",
                     "number":"8",
-                    "altRoute":false
+                    "time":"23:27"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"22",
+                    "time":"23:32"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"23:37",
                     "number":"608",
-                    "altRoute":false
+                    "time":"23:37"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:38",
-                    "number":"22",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:49",
                     "number":"8",
-                    "altRoute":false
+                    "time":"23:42"
                 }
-            ],
-            "name":"\u0141agiewniki"
+            ]
         },
         {
+            "name":"Rondo Matecznego",
             "departures":[
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"00:19",
-                    "number":"608",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"610",
+                    "time":"00:10"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"904",
+                    "time":"00:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"608",
+                    "time":"00:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"00:38",
                     "number":"608",
-                    "altRoute":false
+                    "time":"00:40"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"904",
+                    "time":"00:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"610",
+                    "time":"00:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"610",
+                    "time":"01:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"904",
+                    "time":"01:12"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"01:19",
                     "number":"608",
-                    "altRoute":false
+                    "time":"01:17"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"01:38",
                     "number":"608",
-                    "altRoute":false
+                    "time":"01:40"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"904",
+                    "time":"01:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"610",
+                    "time":"01:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"610",
+                    "time":"02:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"904",
+                    "time":"02:12"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"02:19",
                     "number":"608",
-                    "altRoute":false
+                    "time":"02:17"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"02:38",
                     "number":"608",
-                    "altRoute":false
+                    "time":"02:40"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"904",
+                    "time":"02:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"610",
+                    "time":"02:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"610",
+                    "time":"03:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"904",
+                    "time":"03:12"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"03:19",
                     "number":"608",
-                    "altRoute":false
+                    "time":"03:17"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"03:38",
                     "number":"608",
-                    "altRoute":false
+                    "time":"03:40"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"904",
+                    "time":"03:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"610",
+                    "time":"03:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"04:10"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"04:08",
                     "number":"608",
-                    "altRoute":false
+                    "time":"04:10"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"610",
+                    "time":"04:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"904",
+                    "time":"04:12"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"04:19",
                     "number":"608",
-                    "altRoute":false
+                    "time":"04:17"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"04:46",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"04:30"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"04:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"04:40"
+                },
+                {
+                    "altRoute":true,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"04:49",
                     "number":"608",
-                    "altRoute":true
+                    "time":"04:47"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"04:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"04:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"04:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"04:51"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"04:50",
                     "number":"23",
-                    "altRoute":false
+                    "time":"04:52"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"04:52",
                     "number":"10",
-                    "altRoute":false
+                    "time":"05:00"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"04:59",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"05:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"05:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"05:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"05:04"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:03",
                     "number":"10",
-                    "altRoute":false
+                    "time":"05:06"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"05:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"05:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"05:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"05:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"610",
+                    "time":"05:10"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"05:12"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"05:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"05:14"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"05:11",
                     "number":"10",
-                    "altRoute":false
+                    "time":"05:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"05:15"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"05:13",
                     "number":"23",
-                    "altRoute":false
+                    "time":"05:16"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"05:19"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"05:18",
                     "number":"8",
-                    "altRoute":false
+                    "time":"05:20"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"05:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"05:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"05:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"05:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"05:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"05:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"05:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"05:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:20",
                     "number":"10",
-                    "altRoute":false
+                    "time":"05:31"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:27",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"05:32"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:31",
                     "number":"23",
-                    "altRoute":false
+                    "time":"05:33"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:33",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:35",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:36",
                     "number":"8",
-                    "altRoute":false
+                    "time":"05:34"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"05:34"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"05:41",
                     "number":"10",
-                    "altRoute":false
+                    "time":"05:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"05:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"05:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"05:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"05:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"05:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"05:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"05:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"05:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"05:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"05:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"05:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"05:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"05:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"05:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"05:50"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:51",
                     "number":"23",
-                    "altRoute":false
+                    "time":"05:53"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:53",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:56",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:57",
                     "number":"8",
-                    "altRoute":false
+                    "time":"05:54"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"05:54"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"05:59",
                     "number":"10",
-                    "altRoute":false
+                    "time":"05:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"05:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"05:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"05:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"06:00"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"06:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"06:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"06:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"06:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"06:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"06:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"06:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"06:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"06:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"06:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"06:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"06:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"06:14"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"06:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"06:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"06:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:09",
                     "number":"23",
-                    "altRoute":false
+                    "time":"06:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"06:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"06:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"06:10",
                     "number":"8",
-                    "altRoute":false
+                    "time":"06:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"06:22"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"06:22"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"06:23"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"06:13",
                     "number":"23",
-                    "altRoute":false
+                    "time":"06:24"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"06:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"06:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"06:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:18",
                     "number":"8",
-                    "altRoute":false
+                    "time":"06:26"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"06:19",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"06:27"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"06:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"06:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"06:25",
                     "number":"8",
-                    "altRoute":false
+                    "time":"06:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"06:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"06:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"06:32"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:26",
                     "number":"10",
-                    "altRoute":false
+                    "time":"06:33"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"06:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"06:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"06:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"06:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"06:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"06:37"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:31",
                     "number":"23",
-                    "altRoute":false
+                    "time":"06:39"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"06:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"06:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"06:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"06:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"06:43"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"06:31",
                     "number":"23",
-                    "altRoute":false
+                    "time":"06:44"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:35",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"06:44"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"06:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:38",
                     "number":"8",
-                    "altRoute":false
+                    "time":"06:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"06:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"06:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"06:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"06:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"06:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"06:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"06:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"06:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"06:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"06:54"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"06:39",
                     "number":"10",
-                    "altRoute":false
+                    "time":"06:55"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:45",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"06:55"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:46",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"06:56"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"06:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"06:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:51",
                     "number":"23",
-                    "altRoute":false
+                    "time":"06:59"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"06:51",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"07:00"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"06:55",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"07:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"07:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"07:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"07:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"07:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"07:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"07:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"07:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:58",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:07"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"07:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"07:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"07:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"07:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"07:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"07:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:14"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"06:59",
                     "number":"10",
-                    "altRoute":false
+                    "time":"07:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"07:16"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:00",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:04",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:17"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"07:11",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"07:17"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"07:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:12",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:13",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"07:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"07:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"07:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"07:14",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:21"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:19",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"07:22"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:24",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"07:22"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:24",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"07:24"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"07:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"07:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"07:31",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"07:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"07:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"07:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"07:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"07:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"07:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"07:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"07:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"07:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"07:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"07:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:38"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"07:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:32",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:39"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:32",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"07:39"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"07:34",
                     "number":"8",
-                    "altRoute":false
+                    "time":"07:41"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:39",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"07:42"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:41",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"07:42"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:44",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"07:43"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:45",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"07:44"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"07:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"07:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"07:51",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"07:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"07:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"07:49"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"07:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"07:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"07:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"07:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"07:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"07:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"07:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"07:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"07:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"07:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"07:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"07:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:52",
                     "number":"23",
-                    "altRoute":false
+                    "time":"07:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:53",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"07:54",
                     "number":"8",
-                    "altRoute":false
+                    "time":"08:01"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:59",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"08:01"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:03",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"08:01"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:04",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"08:02"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:05",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"08:04"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"08:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"08:11",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:06"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"08:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"08:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"08:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"08:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"08:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"08:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"08:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"08:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"08:14"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"08:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"08:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"08:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"08:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:18"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:12",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:13",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"08:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"08:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"08:14",
                     "number":"8",
-                    "altRoute":false
+                    "time":"08:21"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:19",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"08:22"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:23",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"08:22"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:24",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"08:24"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:25",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"08:24"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"08:31",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"08:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"08:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"08:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"08:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"08:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"08:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"08:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"08:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"08:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"08:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"08:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"08:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"08:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:32",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:39"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:33",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"08:39"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"08:39"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"08:34",
                     "number":"8",
-                    "altRoute":false
+                    "time":"08:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"08:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"08:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"08:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"08:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"08:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"08:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"08:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"08:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"08:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"08:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"08:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"08:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"08:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"08:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"08:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"08:55"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"08:42",
                     "number":"10",
-                    "altRoute":false
+                    "time":"08:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"08:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"08:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"08:57"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:43",
                     "number":"8",
-                    "altRoute":false
+                    "time":"08:58"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:45",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:45",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:51",
                     "number":"23",
-                    "altRoute":false
+                    "time":"08:59"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"08:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"08:59"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"09:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"09:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"09:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"09:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"09:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"08:51",
                     "number":"23",
-                    "altRoute":false
+                    "time":"09:06"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"09:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"09:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"09:07"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:53",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:08"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"09:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"09:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"09:09"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"08:55",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:11"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:59",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"09:12"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:03",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:05",
                     "number":"10",
-                    "altRoute":false
+                    "time":"09:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"09:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"09:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"09:18"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:11",
                     "number":"23",
-                    "altRoute":false
+                    "time":"09:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:11",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"09:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:15",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"09:19",
                     "number":"10",
-                    "altRoute":false
+                    "time":"09:20"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"09:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"09:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"09:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"09:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"09:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"09:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"09:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"09:27"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:20",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:28"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"09:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"09:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"09:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"09:25",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"09:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"09:34"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:25",
                     "number":"10",
-                    "altRoute":false
+                    "time":"09:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"09:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"09:37"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:30",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:38"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"09:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:31",
                     "number":"23",
-                    "altRoute":false
+                    "time":"09:39"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"09:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:35",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"09:40",
                     "number":"10",
-                    "altRoute":false
+                    "time":"09:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"09:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"09:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"09:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"09:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"09:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:40",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:48"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"09:45",
                     "number":"8",
-                    "altRoute":false
+                    "time":"09:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"09:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"09:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"09:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"09:54"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:45",
                     "number":"10",
-                    "altRoute":false
+                    "time":"09:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"09:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"09:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"09:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:50",
                     "number":"23",
-                    "altRoute":false
+                    "time":"09:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:50",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"10:00"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"09:53",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"10:00"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:56",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"10:00",
                     "number":"10",
-                    "altRoute":false
+                    "time":"10:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"10:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"10:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"10:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"10:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"10:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"10:07"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:00",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:08"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:05",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"10:08"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"10:07",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"10:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"10:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"10:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:10",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"10:20"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"10:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:16",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"10:20",
                     "number":"10",
-                    "altRoute":false
+                    "time":"10:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"10:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"10:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"10:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"10:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"10:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"10:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"10:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"10:26"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:20",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:27"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:25",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"10:30"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"10:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"10:27",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"10:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"10:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"10:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"10:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"10:39"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"10:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:36",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"10:40",
                     "number":"10",
-                    "altRoute":false
+                    "time":"10:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"10:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"10:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"10:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"10:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"10:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:40",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:47"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:45",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"10:47",
                     "number":"8",
-                    "altRoute":false
+                    "time":"10:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"10:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"10:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"10:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"10:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"10:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"10:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"10:57"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:50",
                     "number":"23",
-                    "altRoute":false
+                    "time":"10:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:50",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"11:00"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"10:53",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"11:00"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:56",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"11:00",
                     "number":"10",
-                    "altRoute":false
+                    "time":"11:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"11:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"11:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"11:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"11:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:06"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:00",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:07"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:05",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"11:07"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"11:09"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"11:07",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"11:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"11:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"11:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"11:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:16",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"11:20",
                     "number":"10",
-                    "altRoute":false
+                    "time":"11:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"11:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"11:22"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"11:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"11:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"11:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"11:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"11:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"11:26"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:20",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:27"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:25",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"11:30"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"11:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"11:27",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"11:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"11:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"11:37"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"11:39"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:30",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"11:39"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"11:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:36",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"11:40",
                     "number":"10",
-                    "altRoute":false
+                    "time":"11:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"11:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"11:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"11:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"11:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:40",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:47"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:45",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"11:47"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"11:47",
                     "number":"8",
-                    "altRoute":false
+                    "time":"11:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"11:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"11:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"11:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"11:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"11:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"11:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"11:57"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:50",
                     "number":"23",
-                    "altRoute":false
+                    "time":"11:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:50",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"12:00"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"11:53",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"12:00"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:56",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"12:00",
                     "number":"10",
-                    "altRoute":false
+                    "time":"12:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"12:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"12:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"12:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"12:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:06"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:00",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:07"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:05",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"12:07"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"12:09"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"12:07",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"12:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"12:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"12:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:16",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"12:20",
                     "number":"10",
-                    "altRoute":false
+                    "time":"12:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"12:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"12:22"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"12:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"12:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"12:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"12:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"12:26"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:20",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:27"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:25",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"12:27"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"12:30"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"12:30"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"12:27",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"12:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"12:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"12:37"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"12:39"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:30",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"12:39"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"12:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:36",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"12:40",
                     "number":"10",
-                    "altRoute":false
+                    "time":"12:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"12:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"12:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"12:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"12:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:40",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:47"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:45",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"12:47"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"12:47",
                     "number":"8",
-                    "altRoute":false
+                    "time":"12:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"12:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"12:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"12:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"12:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"12:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"12:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"12:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:50",
                     "number":"23",
-                    "altRoute":false
+                    "time":"12:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:50",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:56",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"13:00",
                     "number":"10",
-                    "altRoute":false
+                    "time":"13:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"13:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"13:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"13:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"13:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"13:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"13:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"13:06"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:00",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:07"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:06",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"13:07"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"13:09"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"13:08",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"13:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"13:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"13:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"13:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:11",
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"13:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"13:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"13:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"13:22"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"13:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"13:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"13:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"13:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"13:18",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:26"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:18",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:27"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"13:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"13:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:31"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"13:22",
                     "number":"10",
-                    "altRoute":false
+                    "time":"13:35"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:24",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"13:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"13:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"13:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"13:36"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:27",
                     "number":"10",
-                    "altRoute":false
+                    "time":"13:37"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:28",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:33",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:39"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:34",
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"13:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"13:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"13:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"13:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"13:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"13:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"13:38",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:46"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:38",
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"13:47"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"13:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"13:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"13:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"13:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"13:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"13:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"13:54"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"13:42",
                     "number":"10",
-                    "altRoute":false
+                    "time":"13:55"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:44",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"13:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"13:56"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:47",
                     "number":"10",
-                    "altRoute":false
+                    "time":"13:57"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:48",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"13:57"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"13:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"13:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:53",
                     "number":"23",
-                    "altRoute":false
+                    "time":"13:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:54",
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"14:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"14:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"14:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"14:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"14:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"13:58",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:06"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:58",
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"14:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:07"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"14:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"14:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"14:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"14:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"14:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"14:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"14:15"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"14:02",
                     "number":"10",
-                    "altRoute":false
+                    "time":"14:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"14:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"14:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"14:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:03",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:18"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:07",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:08",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:13",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:13",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"14:20"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"14:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"14:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"14:18",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"14:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"14:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"14:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"14:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"14:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"14:19",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:26"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:22",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"14:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"14:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"14:27"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:23",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:28"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:27",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"14:30"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"14:28",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"14:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"14:32"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:33",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"14:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"14:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"14:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"14:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"14:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"14:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:34",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:39"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"14:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"14:40"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"14:38",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"14:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"14:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"14:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"14:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"14:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"14:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"14:39",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:46"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:42",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"14:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"14:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:43",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:48"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:47",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"14:50"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"14:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"14:50"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"14:48",
                     "number":"8",
-                    "altRoute":false
+                    "time":"14:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"14:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"14:54"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:53",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"14:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"14:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"14:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"14:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"14:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"14:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"14:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:54",
                     "number":"23",
-                    "altRoute":false
+                    "time":"14:59"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"15:00"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"14:58",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"15:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"15:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"15:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"15:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"15:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"15:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"15:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"14:59",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:06"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:02",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"15:06"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:03",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:08"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:07",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"15:09"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"15:10"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"15:08",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"15:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"15:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"15:12"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:13",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"15:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"15:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"15:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"15:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:18"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:14",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"15:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"15:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"15:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"15:18",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"15:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"15:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"15:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"15:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"15:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"15:19",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:26"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:22",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"15:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"15:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"15:27"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:23",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:28"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:27",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"15:30"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"15:28",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"15:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"15:32"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:33",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"15:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"15:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"15:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"15:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"15:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:34",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:39"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"15:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"15:40"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"15:38",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"15:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"15:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"15:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"15:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"15:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"15:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"15:39",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:46"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:42",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"15:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"15:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:43",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:48"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:47",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"15:50"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"15:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"15:50"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"15:48",
                     "number":"8",
-                    "altRoute":false
+                    "time":"15:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"15:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"15:54"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:53",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"15:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"15:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"15:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"15:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"15:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"15:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"15:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:54",
                     "number":"23",
-                    "altRoute":false
+                    "time":"15:59"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"16:00"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"15:58",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"16:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"16:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"16:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"16:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"16:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"16:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"16:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"15:59",
                     "number":"23",
-                    "altRoute":false
+                    "time":"16:06"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:02",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"16:06"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:03",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:08"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:07",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"16:09"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"16:10"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"16:08",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"16:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"16:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"16:12"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:13",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"16:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"16:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"16:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"16:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:18"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:14",
                     "number":"23",
-                    "altRoute":false
+                    "time":"16:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"16:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"16:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"16:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"16:18",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"16:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"16:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"16:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"16:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"16:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"16:19",
                     "number":"23",
-                    "altRoute":false
+                    "time":"16:26"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:22",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"16:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"16:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"16:27"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:23",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:28"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:27",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"16:30"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"16:28",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"16:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"16:32"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:33",
-                    "number":"8",
-                    "altRoute":false
+                    "number":"10",
+                    "time":"16:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"16:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"16:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"16:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"16:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:34",
                     "number":"23",
-                    "altRoute":false
+                    "time":"16:39"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"16:39"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"16:40"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"16:38",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:41"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"16:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"16:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"16:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"16:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"16:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"16:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"16:39",
                     "number":"23",
-                    "altRoute":false
+                    "time":"16:46"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:40",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"16:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"16:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:43",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:48"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:47",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"16:50"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"16:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"16:50"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"16:48",
                     "number":"8",
-                    "altRoute":false
+                    "time":"16:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"16:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"16:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"16:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"16:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"16:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"16:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"16:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"16:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"16:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:53",
                     "number":"23",
-                    "altRoute":false
+                    "time":"16:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:53",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"17:00"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"16:54",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"16:59",
                     "number":"8",
-                    "altRoute":false
+                    "time":"17:01"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"17:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"17:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"17:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"17:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"17:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"17:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"17:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"17:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"17:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"17:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"17:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"17:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"17:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"17:14"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:15"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"17:01",
                     "number":"10",
-                    "altRoute":false
+                    "time":"17:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"17:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"17:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:03",
                     "number":"8",
-                    "altRoute":false
+                    "time":"17:18"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:07",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:08",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"17:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:15",
                     "number":"23",
-                    "altRoute":false
+                    "time":"17:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"17:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"17:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"17:18",
                     "number":"8",
-                    "altRoute":false
+                    "time":"17:21"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"17:20",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"17:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"17:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"17:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"17:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"17:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"17:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"17:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"17:27"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:21",
                     "number":"8",
-                    "altRoute":false
+                    "time":"17:28"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:26",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"17:29"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"17:28",
                     "number":"8",
-                    "altRoute":false
+                    "time":"17:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"17:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"17:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"17:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"17:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"17:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"17:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"17:39"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:31",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"17:39"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"17:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:38",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:42",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"17:45",
                     "number":"10",
-                    "altRoute":false
+                    "time":"17:40"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"17:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"17:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"17:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"17:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"17:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"17:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"17:45"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"17:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"17:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"17:47"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:46",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:47",
                     "number":"8",
-                    "altRoute":false
+                    "time":"17:48"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"17:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"17:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"17:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"17:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"17:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"17:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"17:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"17:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"17:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"17:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"17:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:49",
                     "number":"23",
-                    "altRoute":false
+                    "time":"17:59"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:51",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"18:00"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"17:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:59",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:06",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"18:08",
                     "number":"10",
-                    "altRoute":false
+                    "time":"18:01"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:09",
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"18:01"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"18:02"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"18:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"18:04"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"18:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"18:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"18:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"18:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"18:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"8",
-                    "altRoute":false
+                    "time":"18:08"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"18:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"18:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"18:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"18:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"18:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"18:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"18:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"18:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"18:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"18:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"18:18"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"18:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:12",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"18:20"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"18:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:21",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:22",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:26",
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
                     "number":"10",
-                    "altRoute":false
+                    "time":"18:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"18:21"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"18:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"18:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"18:25"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Czerwone Maki",
+                    "number":"23",
+                    "time":"18:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"18:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"18:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"18:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"18:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"18:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"18:32"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"18:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"18:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"18:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"18:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"18:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"18:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:28",
                     "number":"23",
-                    "altRoute":false
+                    "time":"18:39"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"18:40"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"18:30",
                     "number":"10",
-                    "altRoute":false
+                    "time":"18:41"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:32",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"18:42"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"18:43"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"18:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"18:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"18:33",
                     "number":"23",
-                    "altRoute":false
+                    "time":"18:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"18:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"18:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"18:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"18:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"18:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"18:50"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"18:41",
                     "number":"8",
-                    "altRoute":false
+                    "time":"18:51"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:42",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"18:53"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"18:55"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:46",
                     "number":"10",
-                    "altRoute":false
+                    "time":"18:57"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"18:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"18:57"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:48",
                     "number":"23",
-                    "altRoute":false
+                    "time":"18:59"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"18:50",
                     "number":"10",
-                    "altRoute":false
+                    "time":"19:01"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:52",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"19:02"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"19:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"19:03"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"19:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"503",
+                    "time":"19:05"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"19:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"18:53",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:06"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"19:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"19:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"19:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"19:09"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"19:10"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"19:01",
                     "number":"8",
-                    "altRoute":false
+                    "time":"19:11"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:03",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"19:13"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"19:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"19:16"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:06",
                     "number":"10",
-                    "altRoute":false
+                    "time":"19:17"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"19:17"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"19:18"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:08",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:19"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"19:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"19:10",
                     "number":"10",
-                    "altRoute":false
+                    "time":"19:21"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:12",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"19:22"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"19:23"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"19:24"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"19:26"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"19:13",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:26"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"19:21",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"19:26"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:26",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"19:27"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"19:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"19:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"19:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"19:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"503",
+                    "time":"19:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"19:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"19:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"19:38"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:29",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:39"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"19:31",
                     "number":"10",
-                    "altRoute":false
+                    "time":"19:41"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:32",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"19:43"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"19:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"19:44"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"19:33",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:46"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"19:42",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"19:46"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:46",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"19:47"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"19:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"19:48"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"19:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"19:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"19:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"19:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"19:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"19:57"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"19:58"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:48",
                     "number":"23",
-                    "altRoute":false
+                    "time":"19:59"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"19:59"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"19:52",
                     "number":"10",
-                    "altRoute":false
+                    "time":"20:02"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:52",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"20:03"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"19:54",
                     "number":"23",
-                    "altRoute":false
+                    "time":"20:05"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:03",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"20:05"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"20:05"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:05",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"20:06"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"20:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"20:08"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"20:10"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"20:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"20:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"20:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"20:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"20:17"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:11",
                     "number":"23",
-                    "altRoute":false
+                    "time":"20:19"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:11",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"20:20"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Plesz\u00f3w",
-                    "time":"20:13",
                     "number":"10",
-                    "altRoute":false
+                    "time":"20:21"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"20:21"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"20:14",
                     "number":"23",
-                    "altRoute":false
+                    "time":"20:24"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:23",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"20:24"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"20:25"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:28",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"20:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"20:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"20:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"20:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"20:29"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"20:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"20:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"20:35"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"20:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"20:37"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"20:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"20:41"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"20:42"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:33",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"20:42"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:33",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"20:34",
                     "number":"23",
-                    "altRoute":false
+                    "time":"20:44"
                 },
                 {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:43",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"20:44"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"20:45"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:47",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"20:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"20:47"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"20:50"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"20:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"20:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"20:52"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"20:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"20:55"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"20:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"20:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"20:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:00"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:50",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:02"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:53",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"20:54",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:04"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"21:04"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:55",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:06"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"21:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"21:07"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"21:10"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"21:03",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"21:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"21:12"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:08",
                     "number":"10",
-                    "altRoute":false
+                    "time":"21:15"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"21:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"21:18"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:20"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"21:21"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:22"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:13",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"21:23"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"21:14",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:24"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:15",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:26"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"21:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"21:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"21:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"21:28"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"21:23",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"21:34"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:28",
                     "number":"10",
-                    "altRoute":false
+                    "time":"21:35"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"21:36"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"21:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"21:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"21:41"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:42"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:33",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"21:42"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"21:43"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"21:34",
                     "number":"23",
-                    "altRoute":false
+                    "time":"21:44"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:35",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:46"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"21:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"21:50"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"21:46",
                     "number":"8",
-                    "altRoute":false
+                    "time":"21:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"21:51"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"21:53"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:48",
                     "number":"10",
-                    "altRoute":false
+                    "time":"21:55"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"21:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"21:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"21:58"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:00"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:50",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:02"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"22:03"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"21:54",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:04"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"22:04"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:55",
                     "number":"8",
-                    "altRoute":false
+                    "time":"22:05"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:57",
-                    "number":"10",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"22:07"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:07",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"22:08",
                     "number":"8",
-                    "altRoute":false
+                    "time":"22:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"22:11"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"22:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"22:12"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"10",
+                    "time":"22:13"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"22:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"22:16"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:20"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"22:10",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:22"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:13",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"22:23"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"22:15",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:23"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"22:23"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"22:26",
                     "number":"8",
-                    "altRoute":false
+                    "time":"22:24"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"22:29",
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"22:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"22:26"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"22:28"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Cichy K\u0105cik",
+                    "number":"8",
+                    "time":"22:31"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
                     "number":"10",
-                    "altRoute":false
+                    "time":"22:31"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"22:33"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"22:34"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"22:36"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"22:40"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"22:41"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"22:41"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"22:30",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:42"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"22:35",
                     "number":"23",
-                    "altRoute":false
+                    "time":"22:43"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:44",
-                    "number":"10",
-                    "altRoute":false
+                    "number":"8",
+                    "time":"22:44"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"22:44"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"184",
+                    "time":"22:46"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"22:46"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Cichy K\u0105cik",
-                    "time":"22:46",
                     "number":"8",
-                    "altRoute":false
+                    "time":"22:51"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"22:53",
                     "number":"10",
-                    "altRoute":true
+                    "time":"22:51"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"G\u00f3rka Narodowa",
+                    "number":"164",
+                    "time":"22:53"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"22:54"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Azory",
+                    "number":"173",
+                    "time":"22:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"22:56"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"22:58"
+                },
+                {
+                    "altRoute":true,
+                    "destination":"Plesz\u00f3w",
+                    "number":"10",
+                    "time":"23:00"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Czerwone Maki",
-                    "time":"22:55",
                     "number":"23",
-                    "altRoute":false
+                    "time":"23:03"
                 },
                 {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:12",
                     "number":"8",
-                    "altRoute":false
+                    "time":"23:04"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"23:13",
-                    "number":"10",
-                    "altRoute":true
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"179",
+                    "time":"23:04"
                 },
                 {
-                    "destination":"Czerwone Maki",
-                    "time":"23:15",
-                    "number":"23",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"184",
+                    "time":"23:05"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Wieliczka",
+                    "number":"304",
+                    "time":"23:06"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
+                    "number":"173",
+                    "time":"23:08"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:24",
                     "number":"10",
-                    "altRoute":false
+                    "time":"23:11"
                 },
                 {
-                    "destination":"Plesz\u00f3w",
-                    "time":"23:30",
-                    "number":"10",
-                    "altRoute":true
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"144",
+                    "time":"23:11"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Os.Kurdwan\u00f3w",
+                    "number":"179",
+                    "time":"23:15"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
+                    "number":"304",
+                    "time":"23:16"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"R\u017c\u0105ka ",
+                    "number":"144",
+                    "time":"23:19"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:34",
                     "number":"8",
-                    "altRoute":false
+                    "time":"23:24"
                 },
                 {
+                    "altRoute":false,
+                    "destination":"Piaski Nowe",
+                    "number":"164",
+                    "time":"23:27"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Borek Fa\u0142\u0119cki",
+                    "number":"8",
+                    "time":"23:39"
+                },
+                {
+                    "altRoute":false,
                     "destination":"Aleja Przyja\u017ani",
-                    "time":"23:38",
                     "number":"608",
-                    "altRoute":false
+                    "time":"23:40"
                 },
                 {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:47",
-                    "number":"8",
-                    "altRoute":false
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Bia\u0142y",
+                    "number":"904",
+                    "time":"23:42"
+                },
+                {
+                    "altRoute":false,
+                    "destination":"Pr\u0105dnik Czerwony",
+                    "number":"610",
+                    "time":"23:46"
                 }
-            ],
-            "name":"Rzemie\u015blnicza"
-        },
-        {
-            "departures":[
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"00:10",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"00:12",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"00:17",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Aleja Przyja\u017ani",
-                    "time":"00:40",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"00:42",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"00:48",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"01:10",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"01:12",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"01:17",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Aleja Przyja\u017ani",
-                    "time":"01:40",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"01:42",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"01:48",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"02:10",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"02:12",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"02:17",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Aleja Przyja\u017ani",
-                    "time":"02:40",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"02:42",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"02:48",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"03:10",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"03:12",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"03:17",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Aleja Przyja\u017ani",
-                    "time":"03:40",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"03:42",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"03:48",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"04:10",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Aleja Przyja\u017ani",
-                    "time":"04:10",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"04:10",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"04:12",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"04:17",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"04:30",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"04:35",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"04:39",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"04:47",
-                    "number":"608",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"04:48",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"04:50",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"04:51",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"04:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"04:54",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"05:01",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"05:01",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"05:01",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:01",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:02",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"05:05",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"05:07",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"05:09",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"05:10",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"05:10",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"05:10",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"05:13",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:13",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"05:14",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"05:18",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:19",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"05:20",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"05:22",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"05:22",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"05:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"05:24",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"05:26",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:29",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"05:32",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"05:32",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"05:32",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:32",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"05:33",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:34",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:35",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"05:36",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"05:36",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"05:37",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"05:38",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"05:40",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"05:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"05:43",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"05:44",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"05:46",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"05:46",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"05:47",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"05:48",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"05:50",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"05:50",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"05:51",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:52",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"05:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"05:54",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"05:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"05:56",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"05:56",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"05:57",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"05:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"06:00",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"06:01",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"06:01",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"06:01",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"06:02",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:03",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:03",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"06:07",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"06:08",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"06:09",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"06:11",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:11",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:11",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"06:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"06:13",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"06:14",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"06:15",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:15",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:17",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"06:20",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"06:20",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"06:21",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"06:21",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"06:23",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:24",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:24",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:25",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"06:26",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"06:27",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:27",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:27",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"06:28",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"06:30",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"06:30",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"06:32",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"06:33",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"06:35",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"06:35",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"06:36",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:36",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"06:39",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:39",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"06:40",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"06:41",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"06:41",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"06:44",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"06:45",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:45",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"06:46",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"06:47",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:47",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:48",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"06:49",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"06:50",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"06:50",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"06:51",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:51",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"06:52",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"06:52",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"06:53",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"06:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"06:54",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"06:56",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"06:57",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"06:57",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:57",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"06:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"06:58",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"06:59",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"06:59",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:00",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"07:01",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:01",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:02",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:03",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"07:04",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:04",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"07:04",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:06",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:06",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:07",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"07:09",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:09",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"07:10",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"07:10",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"07:13",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:13",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"07:14",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:14",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:15",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:15",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"07:16",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:16",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:16",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"07:17",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:19",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:20",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"07:21",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:21",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:23",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"07:23",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"07:25",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:25",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:26",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:27",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:27",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"07:28",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"07:29",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"07:29",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"07:30",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:31",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:31",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:32",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"07:33",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:34",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:35",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:36",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"07:36",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"07:37",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:37",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:39",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:39",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"07:40",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:40",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"07:41",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"07:41",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"07:41",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:44",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"07:45",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:46",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:48",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"07:48",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"07:49",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:49",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"07:50",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"07:51",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:51",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"07:52",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"07:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"07:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"07:53",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"07:54",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:55",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"07:56",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"07:56",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"07:57",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"07:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"07:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"08:00",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"08:01",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:01",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:01",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:01",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:03",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:03",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"08:05",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"08:05",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:06",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"08:06",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:07",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:09",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"08:10",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"08:10",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"08:13",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:13",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"08:13",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:14",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:14",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:14",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:15",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:16",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"08:17",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"08:18",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"08:18",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:19",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:21",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:21",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:22",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"08:23",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"08:25",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"08:26",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:26",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:26",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:27",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:27",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:28",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"08:29",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"08:30",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"08:30",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:31",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:33",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"08:34",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:34",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:36",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"08:37",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:38",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:39",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:40",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"08:41",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"08:42",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:42",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"08:42",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"08:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:45",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"08:47",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:47",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"08:49",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:50",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"08:50",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:51",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"08:52",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"08:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"08:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"08:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"08:54",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:55",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"08:56",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"08:57",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"08:57",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"08:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"08:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"09:00",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"09:01",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"09:01",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:02",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"09:03",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"09:04",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"09:05",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"09:06",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:07",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:07",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"09:09",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"09:11",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"09:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"09:13",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:14",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"09:15",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:17",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"09:18",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:19",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"09:19",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:19",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"09:20",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"09:21",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"09:21",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"09:24",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"09:25",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:27",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"09:28",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:30",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"09:30",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"09:32",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"09:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"09:33",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"09:36",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"09:37",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:37",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:38",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:39",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"09:39",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:42",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"09:42",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"09:44",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"09:46",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"09:47",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:47",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"09:48",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"09:52",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"09:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"09:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"09:53",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"09:53",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:54",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"09:54",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"09:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"09:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"09:58",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"09:59",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"10:00",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:01",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"10:02",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"10:03",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"10:03",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:06",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"10:07",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"10:09",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:09",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:09",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"10:11",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"10:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"10:15",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"10:17",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"10:17",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"10:17",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"10:18",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:18",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:19",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:20",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"10:22",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:23",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"10:24",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:25",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"10:27",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"10:31",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"10:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"10:33",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"10:33",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"10:35",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:35",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:35",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:38",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"10:39",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:39",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"10:41",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"10:41",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"10:41",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"10:42",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"10:47",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:47",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:49",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:50",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"10:50",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"10:52",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"10:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"10:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"10:55",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"10:57",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"10:58",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"10:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"10:58",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"10:59",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"10:59",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"11:02",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"11:03",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"11:05",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:05",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"11:05",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"11:06",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:09",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:09",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"11:11",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"11:12",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"11:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"11:13",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"11:14",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"11:15",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:18",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:18",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"11:19",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:19",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"11:21",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"11:22",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"11:23",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"11:24",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"11:27",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"11:29",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"11:29",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"11:30",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"11:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:33",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"11:33",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"11:35",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"11:36",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"11:38",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:38",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:39",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"11:39",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"11:42",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"11:43",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"11:45",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"11:47",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"11:48",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"11:51",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"11:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"11:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"11:53",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"11:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"11:53",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"11:54",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"11:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"11:58",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"11:59",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"11:59",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:00",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:02",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"12:02",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"12:03",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"12:07",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"12:09",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:09",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:09",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"12:11",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:12",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:13",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"12:13",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"12:15",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"12:17",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"12:17",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:18",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"12:18",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:19",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"12:22",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"12:23",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:24",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:26",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"12:27",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:29",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"12:31",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"12:33",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:33",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"12:33",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"12:35",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:36",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:38",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"12:39",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:39",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"12:41",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"12:41",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"12:42",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"12:42",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"12:47",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:48",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"12:51",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"12:51",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"12:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"12:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"12:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"12:55",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"12:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"12:58",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"12:59",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"12:59",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"13:00",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"13:00",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"13:02",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"13:02",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"13:03",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"13:05",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:05",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"13:06",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"13:11",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"13:12",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:13",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"13:13",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"13:15",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"13:16",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"13:17",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"13:17",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"13:19",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"13:23",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:23",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"13:24",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"13:24",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"13:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:26",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"13:27",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"13:28",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"13:31",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"13:31",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"13:33",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:33",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:34",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"13:35",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:35",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"13:36",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"13:37",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"13:39",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"13:40",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:40",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"13:43",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:43",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"13:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:46",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"13:48",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"13:48",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"13:48",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"13:50",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"13:51",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"13:52",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"13:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"13:53",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:54",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"13:55",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"13:55",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"13:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"13:57",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"13:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"13:59",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:00",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"14:00",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:00",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:02",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:04",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"14:04",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"14:05",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:06",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"14:08",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:08",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"14:12",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:12",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"14:12",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:14",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"14:15",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:15",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:16",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"14:18",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:19",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"14:19",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"14:20",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:22",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"14:23",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"14:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:24",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"14:24",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:26",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"14:27",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:27",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:28",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"14:28",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:32",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"14:33",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:34",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:36",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"14:36",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:36",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"14:37",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"14:38",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"14:38",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"14:38",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:40",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"14:40",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"14:41",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:41",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:42",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"14:43",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"14:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:45",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:46",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"14:48",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:48",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"14:48",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"14:49",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"14:50",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"14:51",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:52",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"14:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"14:53",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"14:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"14:53",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:54",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"14:55",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"14:56",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"14:56",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"14:57",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"14:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"14:58",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:00",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"15:00",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:00",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"15:01",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:01",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:03",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:04",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"15:05",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"15:05",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:06",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"15:07",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"15:08",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:08",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:09",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:12",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"15:12",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"15:13",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:13",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:14",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:15",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:16",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:16",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"15:17",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"15:17",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"15:18",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"15:19",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:20",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:21",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:22",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"15:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:24",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"15:24",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"15:25",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:25",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:26",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:27",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:28",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"15:29",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:29",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"15:30",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"15:31",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:33",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:33",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:36",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:36",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"15:37",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:37",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"15:38",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"15:38",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"15:38",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:39",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:40",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"15:41",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:42",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"15:42",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"15:43",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:44",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:44",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"15:44",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:45",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:46",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:48",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"15:48",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"15:49",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:49",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"15:50",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"15:51",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:52",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"15:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"15:53",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"15:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"15:54",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"15:55",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"15:56",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"15:56",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"15:57",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"15:58",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"15:59",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:00",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"16:00",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:00",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"16:01",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:01",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:03",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:04",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"16:05",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:06",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"16:06",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"16:07",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"16:08",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:08",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:09",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:12",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"16:12",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"16:13",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:13",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:14",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:15",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:16",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:16",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"16:17",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"16:18",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"16:18",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"16:19",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:20",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:21",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:22",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"16:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:24",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"16:24",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:24",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"16:25",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:25",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:26",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:27",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:28",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"16:29",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:29",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"16:30",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"16:31",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:32",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:33",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:36",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"16:36",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:36",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"16:37",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:37",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"16:38",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"16:38",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:39",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:40",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"16:41",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:42",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"16:42",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"16:42",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"16:43",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:44",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:44",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:45",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:46",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:48",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"16:48",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"16:49",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:49",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"16:50",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"16:51",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:52",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"16:52",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"16:53",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"16:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"16:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"16:54",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"16:55",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"16:55",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"16:57",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"16:57",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"16:59",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:00",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"17:00",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"17:01",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:01",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:01",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"17:03",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"17:04",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"17:05",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:05",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:06",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"17:06",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"17:07",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"17:08",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:09",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"17:09",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:11",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:12",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"17:12",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"17:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:13",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"17:14",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:14",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:14",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:17",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"17:18",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"17:18",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:20",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"17:21",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:21",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"17:22",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:23",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"17:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"17:24",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:25",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:25",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:25",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"17:26",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"17:28",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:28",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:30",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"17:30",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"17:30",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"17:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"17:33",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:33",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"17:36",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"17:37",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:37",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:38",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"17:38",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"17:40",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:40",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:41",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"17:42",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"17:42",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"17:45",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:45",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:45",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:47",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"17:47",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"17:48",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:49",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"17:49",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:50",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"17:50",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"17:51",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"17:52",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"17:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"17:53",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"17:54",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"17:54",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"17:54",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"17:57",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"17:58",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"17:59",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"17:59",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:01",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:01",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:01",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"18:02",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:05",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"18:06",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"18:06",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"18:07",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"18:08",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"18:09",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"18:10",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:11",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:11",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:11",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"18:12",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"18:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:13",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"18:14",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"18:15",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"18:16",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"18:17",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"18:20",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:21",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:22",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:23",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:23",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"18:25",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:25",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:25",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"18:25",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:28",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"18:29",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:30",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"18:31",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:31",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"18:32",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"18:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"18:32",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:34",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"18:36",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"18:38",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"18:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"18:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"18:41",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:41",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"18:43",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"18:43",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:45",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"18:45",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:47",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"18:49",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:49",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"18:50",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"18:51",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"18:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"18:52",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"18:53",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"18:57",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"18:57",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"18:58",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:58",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"18:59",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"19:02",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:02",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"19:03",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"19:03",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"19:04",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:05",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"19:05",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"19:05",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"19:07",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"19:09",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:10",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"19:11",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:11",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"19:12",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"19:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"19:12",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"19:13",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"19:13",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"19:16",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"19:21",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"19:21",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"19:21",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"19:23",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"19:23",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"19:24",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"19:25",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:25",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"19:27",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"19:28",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"19:28",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"19:29",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"19:31",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:31",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:31",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"19:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"19:33",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"19:33",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"19:35",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"19:36",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"19:42",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"19:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"19:44",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"19:44",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"19:44",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"19:45",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:45",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"19:46",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"19:46",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"19:50",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"19:50",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"19:51",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"19:51",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"19:52",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"19:53",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"19:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"19:54",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"19:57",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"19:58",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"19:58",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"19:59",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"20:00",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:04",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"20:04",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"20:06",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"20:08",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"20:08",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"20:09",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"20:10",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"20:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"20:14",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"20:14",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"20:15",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:15",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"20:16",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"20:18",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"20:20",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"20:22",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"20:22",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"20:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:25",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:27",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"20:30",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"20:31",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"20:32",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:32",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"20:33",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"20:33",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"20:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:35",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"20:36",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"20:38",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"20:38",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"20:38",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"20:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"20:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"20:44",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"20:45",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"20:45",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"20:46",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:46",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"20:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"20:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"20:54",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"20:55",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"20:55",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"20:55",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"20:55",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"20:56",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"20:57",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"20:58",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"21:00",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"21:02",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"21:02",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"21:03",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"21:04",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"21:05",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:07",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"21:08",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"21:09",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"21:10",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"21:13",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:14",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:15",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"21:17",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"21:17",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"21:19",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"21:19",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"21:20",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"21:21",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"21:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"21:24",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"21:25",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"21:26",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"21:26",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:27",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"21:28",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"21:32",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"21:33",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"21:33",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"21:34",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:34",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:35",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"21:37",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"21:41",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"21:43",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"21:43",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"21:43",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"21:44",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"21:45",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:47",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"21:48",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"21:48",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"21:50",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"21:50",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"21:52",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"21:52",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"21:53",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"21:54",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"21:56",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"21:57",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"21:57",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"21:58",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"21:59",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"22:03",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:06",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"22:06",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"22:07",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"22:07",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"22:08",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"22:09",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"22:10",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:12",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"22:12",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"22:12",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"22:14",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"22:14",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"22:15",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"22:16",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"22:17",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"22:20",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"22:20",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"22:22",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:23",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"22:23",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"22:28",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"22:30",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"22:30",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"22:31",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"22:31",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:31",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"22:31",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w",
-                    "time":"22:32",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"22:33",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"22:34",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"22:36",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"22:36",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"22:38",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"22:40",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:43",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"22:44",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"22:44",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"22:44",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"22:46",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Cichy K\u0105cik",
-                    "time":"22:48",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"22:50",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"22:51",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"22:54",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"22:54",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"22:54",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Azory",
-                    "time":"22:55",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"22:55",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"22:55",
-                    "number":"10",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"22:56",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"22:57",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"23:00",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:03",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"23:04",
-                    "number":"173",
-                    "altRoute":false
-                },
-                {
-                    "destination":"G\u00f3rka Narodowa",
-                    "time":"23:04",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Wieliczka",
-                    "time":"23:04",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"23:08",
-                    "number":"184",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Nowy Bie\u017can\u00f3w Po\u0142udnie",
-                    "time":"23:09",
-                    "number":"503",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"23:10",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:11",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Czerwone Maki",
-                    "time":"23:14",
-                    "number":"23",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Os.Kurdwan\u00f3w",
-                    "time":"23:15",
-                    "number":"179",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"23:15",
-                    "number":"10",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Dworzec G\u0142\u00f3wny Zach\u00f3d",
-                    "time":"23:16",
-                    "number":"304",
-                    "altRoute":false
-                },
-                {
-                    "destination":"R\u017c\u0105ka ",
-                    "time":"23:18",
-                    "number":"144",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:23",
-                    "number":"10",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Piaski Nowe",
-                    "time":"23:23",
-                    "number":"164",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Plesz\u00f3w",
-                    "time":"23:32",
-                    "number":"10",
-                    "altRoute":true
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:33",
-                    "number":"8",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Aleja Przyja\u017ani",
-                    "time":"23:40",
-                    "number":"608",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Bia\u0142y",
-                    "time":"23:42",
-                    "number":"904",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Pr\u0105dnik Czerwony",
-                    "time":"23:46",
-                    "number":"610",
-                    "altRoute":false
-                },
-                {
-                    "destination":"Borek Fa\u0142\u0119cki",
-                    "time":"23:46",
-                    "number":"8",
-                    "altRoute":false
-                }
-            ],
-            "name":"Rondo Matecznego"
+            ]
         }
     ]
 };
