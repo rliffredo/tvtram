@@ -8,12 +8,19 @@ schedules = None
 @bottle.get('/hello')
 def get_hello():
     return 'Hello world!'
-    
+
+@bottle.route('<filepath:path>')
+def get_static(filepath):
+    if filepath=='/':
+        return bottle.static_file('index.html', root=r'c:\users\roberto\repos\tvtram\html')
+    return bottle.static_file(filepath, root=r'c:\users\roberto\repos\tvtram\html')
+
 @bottle.get('/stops')
 def get_stops():
     global schedules
     if schedules is None:
         bottle.abort(text='Initialization in progress')
+    #print (schedules)
     return schedules
 
 def get_new_schedules():
@@ -39,4 +46,4 @@ scraping_thread = threading.Thread(target=update_schedules)
 scraping_thread.daemon = True
 scraping_thread.start()
 
-bottle.run(host='localhost', port=8080, reloader=True)
+bottle.run(host='localhost', port=8080, reloader=True, debug=True)

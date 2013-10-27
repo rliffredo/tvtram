@@ -139,6 +139,3 @@ if __name__ == '__main__':
     json_data = json.dumps(schedule, indent=4, separators=(',',':'))
     
     print(json_data)
-    
-    #import timeit
-    #print(timeit.timeit("get_specific_schedules()", setup="from __main__ import get_specific_schedules", number=5))

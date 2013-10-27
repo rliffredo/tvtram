@@ -1,0 +1,131 @@
+﻿@font-face {
+    font-family: BPdots;
+    src: url(./BPdotsUnicase.eot);
+}
+		
+@font-face {
+    font-family: BPdots;
+    src: url(./BPdotsUnicase.otf);
+}
+
+.wrapper{
+    width: 100%;
+	height: auto;
+	min-height: 100%;
+	margin: 0;
+	padding: 0 0 2em 0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+		
+.right{
+	float: right;
+	width: 50%;
+}
+
+body {
+    border-width: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    background-color: #e7e7de;
+    color: white;
+    background-color: black;
+    font-family: "BPdots", sans-serif;
+    text-transform:uppercase;
+	width: 100%;
+	height: 100%;
+}
+		
+html {
+	height: 100%
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 0px 0px 50px;
+}
+
+h1
+{
+    margin: 10px 0px 10px 50px;
+    color: DarkOrange;
+	font-size: 1.6em;
+}
+		
+li {
+	clear:both;
+}
+		
+li .time{
+    float:right;
+    padding-right: 70px;
+}
+
+li .hurry{
+    color: #ff3333;
+}
+
+li .medium{
+    color: yellow;
+}
+
+li .easy{
+    color: YellowGreen;
+}
+            
+.number{
+    width: 2em;
+    display: inline-block;
+    text-align: right;
+	color: DarkOrange;
+}
+
+.bus{
+    background: transparent url(./img/bus-icon-transparent.png) left 80% no-repeat;
+    padding-left: 1em;
+    background-size: 0.75em;
+}
+
+.tram{
+    background: transparent url(./img/tram-icon-transparent.png) left 80% no-repeat;
+    padding-left: 1em;
+    background-size: 0.75em;
+}
+			
+.logo
+{
+    margin: 0 0 0 0;
+    color: DarkOrange;
+	display: inline;
+	float: right;
+	line-height: 1.5em;
+}
+		
+.clock{
+	margin: 0 0 0 0;
+	font-size: 1.5em;
+	color: DarkOrange;
+}
+		
+.footer{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 70px 50px 50px;
+	height: 2em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: black;
+	overflow: hidden;
+}
