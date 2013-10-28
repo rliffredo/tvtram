@@ -28,6 +28,7 @@
     <Content Include="html\img\bus-icon.png" />
     <Content Include="html\img\tram-icon-transparent.png" />
     <Content Include="html\img\tram-icon.png" />
+    <Content Include="html\tvtram.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="backend" />

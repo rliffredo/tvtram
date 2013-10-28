@@ -3,6 +3,8 @@ import scraper
 import threading
 import time
 
+import config
+
 schedules = None
 
 @bottle.get('/hello')
@@ -21,18 +23,14 @@ def get_stops():
     if schedules is None:
         bottle.abort(text='Initialization in progress')
     #print (schedules)
-    return schedules
+    return {'specs': config.stops, 'data': schedules}
 
 def get_new_schedules():
     try:
-        new_schedules = scraper.get_schedules([
-            'Rondo Matecznego',
-            b"\xc5\x81agiewniki".decode('utf-8'),
-            b'Rzemie\xc5\x9blnicza'.decode('utf-8')
-        ])
+        new_schedules = scraper.get_schedules([stop['name'] for stop in config.stops])
         return new_schedules
     except Exception as e:
-        print (e)
+        print e
         pass # Ignore errors on this thread and go on...
 
 def update_schedules():

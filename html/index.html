@@ -14,13 +14,16 @@
             </ul>
         </script>
         <div class="wrapper">
-            <div class="left">
-                <div class="topLeft" data-bind="template: { name: 'line-template', data: rondoMatecznego }"></div>
+            <div class="left" data-bind="foreach: stopVms">
+                <!-- ko if: pane === 'left' -->
+                <div data-bind="template: { name: 'line-template', data: $data }"></div>
+                <!-- /ko -->
             </div>
-            <div class="right">
-                <div class="top" data-bind="template: { name: 'line-template', data: lagiewniki }"></div>
-                <div class="bottom" data-bind="template: { name: 'line-template', data: rzemieslnicza }"></div>
-			</div> 
+            <div class="right" data-bind="foreach: stopVms">
+                <!-- ko ifnot: pane === 'left' -->
+                <div data-bind="template: { name: 'line-template', data: $data }"></div>
+                <!-- /ko -->
+            </div>
 			<div class="footer">
 				<span class="clock" data-bind="text: currentTime"></span>
 				<span class="logo">TV Tram - Hack Day 2013</span>
@@ -28,188 +31,10 @@
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="libs/knockout-2.2.1.js"></script>
+        <script src="vm.js"></script>
         <script>
-		    if(Array.prototype.filter === undefined) {
-			    Array.prototype.filter = function(callback) {
-				    var result = [];
-					var i = 0;
-					for(i = 0; i < this.length; i++) {
-					   if(callback(this[i], i, this)) {
-					      result.push(this[i]);
-					   }
-					}
-					return result;
-				}
-			}
-            var getCurrentTime = function () {
-                var d = new Date();
-                return d;
-            };
-        
-            var getDepartureTime = function (now, dep) {
-                var parts = dep.time.split(':');
-                var hours = parseInt(parts[0], 10);
-                var minutes = parseInt(parts[1], 10);
-                var departureTime = new Date(now.getTime());
-                departureTime.setHours(hours);
-                departureTime.setMinutes(minutes);
-                // roll over day
-                if (departureTime < now) {
-                    departureTime.setDate(departureTime.getDate() + 1);
-                }
-                return departureTime;
-            };
-        
-            var minutesTillDeparture = function (now, dep) {
-                var departureTime = getDepartureTime(now, dep);
-                var diffMs = departureTime.getTime() - now.getTime();
-                var diffMin = Math.floor(diffMs / 1000 / 60);
-                return diffMin;
-            };
-            
-            var stringCompare = function (left, right) {
-                return left === right
-                    ? 0
-                    : (left < right ? -1 : 1);
-            };
-            
-            var updateTime = function (stop, now) {
-                var entries = 0, i = 0;
-                stop.allDepartures.forEach(function (dep) {
-                    dep.minutesLeft(minutesTillDeparture(now, dep));
-                });
-                stop.allDepartures.sort(function (left, right) {
-                    var res = left.minutesLeft() - right.minutesLeft();
-                    if (res != 0) {
-                        return res;
-                    }
-                    var res = stringCompare(left.number, right.number);
-                    if (res != 0) {
-                        return res;
-                    }
-                    return stringCompare(left.destination, right.destination);
-                });
-                
-                stop.departures.removeAll();
-                while (entries < stop.maxEntries) {
-                    var dep = stop.allDepartures[i++];
-                    if (dep.minutesLeft() < stop.minTime) {
-                        continue;
-                    }
-                    stop.departures.push(dep);
-                    ++entries;
-                }
-            };
-            
-            var createStopVm = function (allData, spec) {
-                var stop = allData.stops.filter(function (stop) {
-                    return stop.name === spec.name;
-                })[0];
-                stop.maxEntries = spec.maxEntries;
-                stop.minTime = spec.minTime;
-                stop.hurryTime = spec.hurryTime;
-                stop.mediumTime = spec.mediumTime;
-                stop.departures.forEach(function (dep) {
-                    dep.type = dep.number.length > 2 ? 'bus' : 'tram';
-                    // minutes till departure
-                    dep.minutesLeft = ko.observable(0);
-                    dep.timeLeft = ko.computed(function () {
-                        return this.minutesLeft() + ' min';
-                    }, dep);
-                    dep.warning = ko.computed(function () {
-                        var minLeft = this.minutesLeft();
-                        if (minLeft <= stop.hurryTime) {
-                            return 'hurry';
-                        } else if (minLeft <= stop.mediumTime) {
-                            return 'medium';
-                        } else {
-                            return 'easy';
-                        }
-                    }, dep);
-                });
-                stop.allDepartures = stop.departures;
-                stop.departures = ko.observableArray([ ]);
-                return stop;
-            };
-            
-            var rondoMatecznegoSpec = {
-                name: 'Rondo Matecznego',
-                maxEntries: 22,
-                minTime: 5,
-                hurryTime: 8,
-                mediumTime: 15
-            };
-            
-            var lagiewnikiSpec = {
-                name: 'Łagiewniki',
-                maxEntries: 13,
-                minTime: 4,
-                hurryTime: 8,
-                mediumTime: 11
-            };
-            
-            var rzemieslniczaSpec = {
-                name: 'Rzemieślnicza',
-                maxEntries: 6,
-                minTime: 1,
-                hurryTime: 6,
-                mediumTime: 8
-            };
-            
-            var createVm = function (data) {
-                var vm = {
-                    rondoMatecznego: createStopVm(data, rondoMatecznegoSpec),
-                    lagiewniki: createStopVm(data, lagiewnikiSpec),
-                    rzemieslnicza: createStopVm(data, rzemieslniczaSpec),
-                    currentTime: ko.observable('00:00')
-                };
-                
-                var formatHHMM = function (time) {
-                    var hours = '00' + time.getHours().toString();
-                    var minutes = '00' + time.getMinutes().toString();
-                    return hours.slice(-2) + ':' + minutes.slice(-2);
-                };
-            
-                vm.updateStops = function (now) {
-                    updateTime(this.rondoMatecznego, now);
-                    updateTime(this.lagiewniki, now);
-                    updateTime(this.rzemieslnicza, now);
-                };
-            
-                vm.updateClock = function (now) {
-                    this.currentTime(formatHHMM(now));
-                };
-				              
-                return vm;
-            };
-            
-			var calculateNextRefresh = function () {
-			    var now = getCurrentTime();
-				return 60 - now.getSeconds();
-			};
-			
-			var updateView = function () {
-				var now = getCurrentTime();
-			    updateStops(now);
-				updateClock(now);
-				setTimeout(function() { updateView(); }, calculateNextRefresh() * 1000);
-			}
-			
-            var runApp = function () {
-                var vm = createVm(data);
-                updateStops = vm.updateStops.bind(vm);
-                updateClock = vm.updateClock.bind(vm);
-				updateView();               
-                ko.applyBindings(vm);              
-            };
-            
-            $(function () {
-                $.get('http://localhost:8080/stops')
-                    .done(function (serviceData) {
-                        data = serviceData;
-                        runApp();
-                    });
-            });
+
+			$(function () { initialize(); });
 
         </script>
     </body>
