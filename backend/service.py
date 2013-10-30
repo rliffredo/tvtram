@@ -35,7 +35,7 @@ def get_new_schedules():
         new_schedules = scraper.get_schedules([stop['name'] for stop in config.stops])
         return new_schedules
     except Exception as e:
-        print e
+        print(e)
         pass # Ignore errors on this thread and go on...
 
 def update_schedules():

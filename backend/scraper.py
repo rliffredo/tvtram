@@ -2,7 +2,7 @@ import sys
 PY2 = sys.version_info[0] == 2
 
 if PY2:
-    from urllib2 import urlopen
+    from urllib.request import urlopen
 else:
     from urllib.request import urlopen
 
