@@ -7,6 +7,11 @@ import config
 
 schedules = None
 
+import sys
+from os import path
+app_root = path.split(sys.path[0])[0]
+html_root = path.join(app_root, 'html')
+
 @bottle.get('/hello')
 def get_hello():
     return 'Hello world!'
@@ -14,8 +19,8 @@ def get_hello():
 @bottle.route('<filepath:path>')
 def get_static(filepath):
     if filepath=='/':
-        return bottle.static_file('index.html', root=r'c:\users\roberto\repos\tvtram\html')
-    return bottle.static_file(filepath, root=r'c:\users\roberto\repos\tvtram\html')
+        return bottle.static_file('index.html', root=html_root)
+    return bottle.static_file(filepath, root=html_root)
 
 @bottle.get('/stops')
 def get_stops():
