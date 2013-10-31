@@ -60,9 +60,9 @@ var updateTime = function (stop, now) {
     });
 
     stop.departures.removeAll();
-    while (entries < stop.maxEntries) {
+    while (entries < stop.max_entries) {
         var dep = stop.allDepartures[i++];
-        if (dep.minutesLeft() < stop.minTime) {
+        if (dep.minutesLeft() < stop.min_time) {
             continue;
         }
         stop.departures.push(dep);
@@ -75,10 +75,10 @@ var createStopVm = function (allData, spec) {
         return stop.name === spec.name;
     })[0];
     stop.pane = spec.pane;
-    stop.maxEntries = spec.maxEntries;
-    stop.minTime = spec.minTime;
-    stop.hurryTime = spec.hurryTime;
-    stop.mediumTime = spec.mediumTime;
+    stop.max_entries = spec.max_entries;
+    stop.min_time = spec.min_time;
+    stop.hurry_time = spec.hurry_time;
+    stop.medium_time = spec.medium_time;
     stop.departures.forEach(function (dep) {
         dep.type = dep.number.length > 2 ? 'bus' : 'tram';
         // minutes till departure
@@ -88,9 +88,9 @@ var createStopVm = function (allData, spec) {
         }, dep);
         dep.warning = ko.computed(function () {
             var minLeft = this.minutesLeft();
-            if (minLeft <= stop.hurryTime) {
+            if (minLeft <= stop.hurry_time) {
                 return 'hurry';
-            } else if (minLeft <= stop.mediumTime) {
+            } else if (minLeft <= stop.medium_time) {
                 return 'medium';
             } else {
                 return 'easy';

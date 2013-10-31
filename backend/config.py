@@ -1,24 +1,29 @@
-stops = [{
-            'name': 'Rondo Matecznego',
-            'pane': 'left',
-            'maxEntries': 22,
-            'minTime': 5,
-            'hurryTime': 8,
-            'mediumTime': 15
-        },
-        {
-            'name': b"\xc5\x81agiewniki".decode('utf-8'),
-            'pane': 'right',
-            'maxEntries': 13,
-            'minTime': 4,
-            'hurryTime': 8,
-            'mediumTime': 11
-        },
-        {
-            'name': b'Rzemie\xc5\x9blnicza'.decode('utf-8'),
-            'pane': 'right',
-            'maxEntries': 6,
-            'minTime': 1,
-            'hurryTime': 6,
-            'mediumTime': 8
-        },]
+import sys
+PY2 = sys.version_info[0] == 2
+
+if PY2:
+    from ConfigParser import ConfigParser
+else:
+    from configparser import ConfigParser
+
+from os import path
+app_root = path.split(sys.path[0])[0]
+backend_root = path.join(app_root, 'backend')
+
+config_file = open('stops.ini', 'r', encoding='cp65001')
+
+cp = ConfigParser()
+cp.read_file(config_file)
+stops = []
+for section_name in cp.sections():
+    config_data = cp[section_name]
+    stop_data = {}
+    for key in config_data:
+        if key == 'name':
+            stop_data[key] = config_data[key]
+        elif key == 'pane':
+            stop_data[key] = config_data[key]
+        else:
+            stop_data[key] = int(config_data[key])
+    stops.append(stop_data)
+

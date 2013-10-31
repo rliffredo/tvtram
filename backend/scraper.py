@@ -8,8 +8,6 @@ else:
 
 
 import bs4
-import codecs
-import json
 import concurrent.futures
 
 workers_get_schedules = 3
@@ -112,9 +110,15 @@ def stop_to_dictionary(stop):
     return s
 
 def get_schedules_for_stop(stops_data, stop_name):
-    stop_data = next(sd for sd in stops_data if sd[0] == stop_name)
-    stop = scrap_stop(stop_data[0], stop_data[1])
-    return stop_to_dictionary(stop)
+    try:
+        stop_data =  next(sd for sd in stops_data if sd[0] == stop_name)
+        stop = scrap_stop(stop_data[0], stop_data[1])
+        return stop_to_dictionary(stop)
+    except StopIteration:
+        # Could not find the stop
+        ascii_stopname = stop_name #.decode('ascii', errors = 'ignore')
+        print (("Could not find: " + stop_name).encode('utf-8', errors = 'ignore'))
+        return None
 
 def get_schedules(stop_names):
     stops_data = scrap_stops()
@@ -122,20 +126,8 @@ def get_schedules(stop_names):
         futures = [ executor.submit(get_schedules_for_stop, stops_data, stop_name) for stop_name in stop_names ]
         results = [ future.result() for future in concurrent.futures.as_completed(futures) ]
         schedules = {
-            'stops': results
+            'stops': [res for res in results if res is not None]
         }
-        return schedules
+        valid_stops = [res['name'] for res in results if res is not None]
+        return schedules, valid_stops
 
-if __name__ == '__main__':
-
-    def get_specific_schedules():
-        return get_schedules([
-            'Rondo Matecznego',
-            b'\xc5\x81agiewniki'.decode('utf-8'),
-            b'Rzemie\xc5\x9blnicza'.decode('utf-8')
-        ])
-
-    schedule = get_specific_schedules()
-    json_data = json.dumps(schedule, indent=4, separators=(',',':'))
-    
-    print(json_data)
