@@ -12,9 +12,9 @@ from os import path
 app_root = path.split(sys.path[0])[0]
 html_root = path.join(app_root, 'html')
 
-@bottle.get('/hello')
-def get_hello():
-    return 'Hello world!'
+@bottle.get('/ping')
+def get_ping():
+    return 'pong!'
 
 @bottle.route('<filepath:path>')
 def get_static(filepath):

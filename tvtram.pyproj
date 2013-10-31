@@ -18,10 +18,10 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
     <Compile Include="backend\bottle.py" />
+    <Compile Include="backend\config.py" />
     <Compile Include="backend\scraper.py" />
     <Compile Include="backend\service.py" />
     <Content Include="html\index.html" />
-    <Content Include="html\data.js" />
     <Content Include="html\libs\jquery-1.10.1.min.js" />
     <Content Include="html\libs\knockout-2.2.1.js" />
     <Content Include="html\img\bus-icon-transparent.png" />
@@ -29,6 +29,7 @@
     <Content Include="html\img\tram-icon-transparent.png" />
     <Content Include="html\img\tram-icon.png" />
     <Content Include="html\tvtram.css" />
+    <Content Include="html\vm.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="backend" />
