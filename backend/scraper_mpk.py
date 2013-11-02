@@ -26,7 +26,7 @@ class Departure:
 class Stop:
     def __init__(self, name):
         self.name = name
-        self.departures = [ ]
+        self.departures = []
 
 def get_soup(url):
     request = urlopen('http://rozklady.mpk.krakow.pl/aktualne/' + url)
@@ -96,38 +96,19 @@ def scrap_stop(name, link):
         stop.departures.sort(key=lambda d: d.time)
         return stop
 
-def stop_to_dictionary(stop):
-    s = { }
-    s['name'] = stop.name
-    s['departures'] = [ ]
-    for dep in stop.departures:
-        d = { }
-        d['number'] = dep.number
-        d['destination'] = dep.destination
-        d['time'] = dep.time
-        d['altRoute'] = dep.alt_route
-        s['departures'].append(d)
-    return s
-
 def get_schedules_for_stop(stops_data, stop_name):
     try:
         stop_data =  next(sd for sd in stops_data if sd[0] == stop_name)
         stop = scrap_stop(stop_data[0], stop_data[1])
-        return stop_to_dictionary(stop)
     except StopIteration:
-        # Could not find the stop
-        ascii_stopname = stop_name #.decode('ascii', errors = 'ignore')
-        print (("Could not find: " + stop_name).encode('utf-8', errors = 'ignore'))
-        return None
+        print (("Could not find: " + stop_name).encode('utf-8', errors = 'ignore'), file=sys.stderr)
+        stop = Stop(stop_name)
+    return {'name': stop.name, 'departures': [dep.__dict__ for dep in stop.departures]}
 
 def get_schedules(stop_names):
     stops_data = scrap_stops()
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers_get_schedules) as executor:
         futures = [ executor.submit(get_schedules_for_stop, stops_data, stop_name) for stop_name in stop_names ]
         results = [ future.result() for future in concurrent.futures.as_completed(futures) ]
-        schedules = {
-            'stops': [res for res in results if res is not None]
-        }
-        valid_stops = [res['name'] for res in results if res is not None]
-        return schedules, valid_stops
+        return results
 

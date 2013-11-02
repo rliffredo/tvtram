@@ -6,7 +6,6 @@ import time
 import config
 
 schedules = None
-valid_stops = None
 
 import sys
 from os import path
@@ -26,26 +25,22 @@ def get_static(filepath):
 @bottle.get('/stops')
 def get_stops():
     global schedules
-    global valid_stops
     if schedules is None:
         bottle.abort(text='Initialization in progress')
-    return {'specs': valid_stops, 'data': schedules}
+    return {'data': schedules, 'specs': config.stops}
 
 def get_new_schedules():
     try:
         return scraper.get_schedules([stop['name'] for stop in config.stops])
     except Exception as e:
-        import traceback
-        traceback.print_exc()
-        print(e)
-        pass # Ignore errors on this thread and go on...
+        print("Exception encountered while getting new schedules", file=sys.stderr)
+        print(e, file=sys.stderr)
+        return None # Ignore errors on this thread and go on...
 
 def update_schedules():
     while (True):
         global schedules
-        global valid_stops
-        schedules, valid_stop_names = get_new_schedules()
-        valid_stops = [stop_spec for stop_spec in config.stops if stop_spec['name'] in valid_stop_names]
+        schedules = get_new_schedules()
         if schedules is not None:
             time.sleep(60 * 60 * 12)
         else:
@@ -56,4 +51,4 @@ scraping_thread = threading.Thread(target=update_schedules)
 scraping_thread.daemon = True
 scraping_thread.start()
 
-bottle.run(host='localhost', port=8080, reloader=True, debug=True)
+bottle.run(host='localhost', port=8080, reloader=False, debug=True)

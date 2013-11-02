@@ -20,7 +20,7 @@ def get_defined_stops():
     backend_root = path.join(app_root, 'backend')
 
     cp = ConfigParser()
-    with open('stops.ini', 'r', encoding='cp65001') as config_file: # windows utf-8
+    with open(path.join(backend_root, 'stops.ini'), 'r', encoding='cp65001') as config_file: # windows utf-8
         cp.read_file(config_file)
 
     stops = []

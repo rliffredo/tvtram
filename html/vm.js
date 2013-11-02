@@ -60,7 +60,7 @@ var updateTime = function (stop, now) {
     });
 
     stop.departures.removeAll();
-    while (entries < stop.max_entries) {
+    while (entries < stop.max_entries && i<stop.allDepartures.length) {
         var dep = stop.allDepartures[i++];
         if (dep.minutesLeft() < stop.min_time) {
             continue;
@@ -71,7 +71,7 @@ var updateTime = function (stop, now) {
 };
 
 var createStopVm = function (allData, spec) {
-    var stop = allData.stops.filter(function (stop) {
+    var stop = allData.filter(function (stop) {
         return stop.name === spec.name;
     })[0];
     stop.pane = spec.pane;
@@ -141,9 +141,7 @@ var updateView = function () {
 var initialize = function () {
     $.get('http://localhost:8080/stops')
         .done(function (res) {
-            specs = res.specs;
-            data = res.data;
-            var vm = createVm(data, specs);
+            var vm = createVm(res.data, res.specs);
             updateStops = vm.updateStops.bind(vm);
             updateClock = vm.updateClock.bind(vm);
             updateView();
