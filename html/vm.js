@@ -96,6 +96,7 @@ var createStopVm = function (allData, spec) {
                 return 'easy';
             }
         }, dep);
+        dep.destination = dep.destination.substring(0, 30); // Layout may allow for a maximum of about 30 carachters
     });
     stop.allDepartures = stop.departures;
     stop.departures = ko.observableArray([]);
