@@ -137,17 +137,3 @@ var updateView = function () {
     updateClock(now);
     setTimeout(function () { updateView(); }, calculateNextRefresh() * 1000);
 }
-
-var initialize = function () {
-    $.get('http://localhost:8080/stops')
-        .done(function (res) {
-            var vm = createVm(res.data, res.specs);
-            updateStops = vm.updateStops.bind(vm);
-            updateClock = vm.updateClock.bind(vm);
-            updateView();
-            ko.applyBindings(vm);
-        })
-        .fail(function () {
-            setTimeout(initialize, 250)
-        });
-};

@@ -14,6 +14,7 @@
             </ul>
         </script>
         <div class="wrapper">
+            <div id="loading">Loading data, please wait...</div>
             <div class="left" data-bind="foreach: stopVms">
                 <!-- ko if: pane === 'left' -->
                 <div data-bind="template: { name: 'line-template', data: $data }"></div>
@@ -29,12 +30,24 @@
 				<span class="logo">TV Tram - Hack Day 2013</span>
 			</div>
         </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="libs/jquery-1.10.1.min.js"></script>
         <script src="libs/knockout-2.2.1.js"></script>
         <script src="vm.js"></script>
         <script>
-
-			$(function () { initialize(); });
+			$(function () {
+			    $.get('http://localhost:8080/stops')
+                    .done(function (res) {
+                        $('#loading').hide();
+                        var vm = createVm(res.data, res.specs);
+                        updateStops = vm.updateStops.bind(vm);
+                        updateClock = vm.updateClock.bind(vm);
+                        updateView();
+                        ko.applyBindings(vm);
+                    })
+                    .fail(function () {
+                        setTimeout(initialize, 500)
+                    });
+			});
 
         </script>
     </body>
