@@ -1,5 +1,5 @@
 import bottle
-import scraper
+import scraper_mpk as scraper
 import threading
 import time
 
