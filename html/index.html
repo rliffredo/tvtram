@@ -35,8 +35,8 @@
         <script src="libs/knockout-2.2.1.js"></script>
         <script src="vm.js"></script>
         <script>
-			$(function () {
-			    $.get('http://localhost:8080/stops')
+            initialize = function () {
+                $.get('http://localhost:8080/stops')
                     .done(function (res) {
                         $('#loading').hide();
                         var vm = createVm(res.data, res.specs);
@@ -48,6 +48,9 @@
                     .fail(function () {
                         setTimeout(initialize, 500)
                     });
+            }
+            $(function () {
+                initialize();
 			});
 
         </script>
