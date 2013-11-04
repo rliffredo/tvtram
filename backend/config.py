@@ -3,6 +3,7 @@ from os import path
 
 PY2 = sys.version_info[0] == 2
 if PY2:
+    from io import open
     from ConfigParser import ConfigParser
 else:
     from configparser import ConfigParser
@@ -21,19 +22,20 @@ def get_defined_stops():
 
     cp = ConfigParser()
     with open(path.join(backend_root, 'stops.ini'), 'r', encoding='cp65001') as config_file: # windows utf-8
-        cp.read_file(config_file)
+        if PY2:
+            cp.readfp(config_file)
+        else:
+            cp.read_file(config_file)
 
     stops = []
     for section_name in cp.sections():
-        config_data = cp[section_name]
+        stop_configuration = cp.items(section_name)
         stop_data = {}
-        for key in config_data:
-            if key == 'name':
-                stop_data[key] = config_data[key]
-            elif key == 'pane':
-                stop_data[key] = config_data[key]
+        for key, value in stop_configuration:
+            if key in ('name', 'pane'):
+                stop_data[key] = value
             else:
-                stop_data[key] = int(config_data[key])
+                stop_data[key] = int(value)
         stops.append(stop_data)
 
     return stops
